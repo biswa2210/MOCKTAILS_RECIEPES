@@ -12,7 +12,7 @@
 
 ## About :point_down: 
 
-## APP DOWNLOAD LINK : :point_right: <a href="https://github.com/biswa2210/MOCKTAILS_RECIEPES/raw/master/" download>Click here to download</a>
+## APP DOWNLOAD LINK : :point_right: <a href="https://github.com/biswa2210/MOCKTAILS_RECIEPES/raw/master/Famous_Mocktails_base.apk" download>Click here to download</a>
 ## Purpose :point_down:
 
 ## Use :point_down:
