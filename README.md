@@ -12,7 +12,7 @@
 
 ## About :point_down: 
 
-## LINK to download: :point_right:
+## APP DOWNLOAD LINK : :point_right: <a href="https://github.com/biswa2210/MOCKTAILS_RECIEPES/raw/master/" download>Click here to download</a>
 ## Purpose :point_down:
 
 ## Use :point_down:
