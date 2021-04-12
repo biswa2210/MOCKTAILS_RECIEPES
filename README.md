@@ -56,7 +56,13 @@ mocktail-recipe-finder
 
 ## Screenshots :point_down: 
 <div align="center">
+<a href="m1.jpeg"><img src="m1.jpeg" width="250" height= "450"></a> <a href="m2.jpeg"><img src="m2.jpeg" width="250" height= "450"></a>
+       
+<a href="m3.jpeg"><img src="m3.jpeg" width="250" height= "450"></a> <a href="m4.jpeg"><img src="m4.jpeg" width="250" height= "450"></a>
 
+<a href="m5.jpeg"><img src="m5.jpeg" width="250" height= "450"></a> <a href="m6.jpeg"><img src="m6.jpeg" width="250" height= "450"></a>
+     
+<a href="m7.jpeg"><img src="m7.jpeg" width="250" height= "450"></a> <a href="m8.jpeg"><img src="m8.jpeg" width="250" height= "450"></a>
 </div>
 # Making :point_down: 
 
