@@ -16,11 +16,15 @@ Made at the restaurant’s bar, modern mocktails tend to have a sense of sophist
 Mocktails are very famous for celebrations, parties, occations and functions all over the world. People also make mocktails in their home. I have made this application for finding mocktail recipes. **Here we can read 83 mocktails's recipes over 12 countries.** By clicking on each country we will see that country's famous and mouthwatering nutritious mocktails. We can read about ingredients, procedure, making time of each mocktali. Also we can see is it affordable or if it is pricey. We can add mocktails in favourite list so that in future it will easily be found. In the filters portion we can specify our choices by 6 catagories.* We can easily find expensive, halloween special, affordable, alcoholic or non alcoholic mocktails as per our choice.* We can seperate alcoholic or non-alcoholic drinks which is really useful.<br>
 ## APP DOWNLOAD LINK : :point_right: <a href="https://github.com/biswa2210/MOCKTAILS_RECIEPES/raw/master/Famous_Mocktails_base.apk" download>Click here to download</a>
 ## Purpose :point_down:
-
+I have made this web application for those who want to make mocktails in home but they coudn't find a good recipe. For searching recipe in google or you tube it takes much time. Also when we search a particular recipe we can't know about others. For this I have made a catalog of mocktails so that people not only can make mocktails but also they can explore new mocktails and their recipes. Using the filters people can easily find specific mocktails they actually want to make. Whatever the menu is when we add mocktails it gives a special finishing touch. Specially in summers we can easily open the app in our phones, gather the the ingredients and then we can drink to our fill. <br>
 ## Use :point_down:
-
+First user has to install the application in his android phone or iphone. User can change the orientation as he wants. Now if he chooses Indian mocktails he will get many popular mocktails of India. Then by choosing (for say) Blue Lagoon he will be shown ingredients and procedure for Blue lagoon. If he wants to read that later he can add it to favourites list. If a user wants to drink only non-alcoholic mocktails he has to go to filters and click on non-alcoholic button. Then he will be shown only non-alcoholic mocktails of each countries. That is how user can easily find any mocktail recipe in this application.
 ## Importance :point_down:
-
+1. This application is very user friendly so anyone can easily use it.<br>
+2. Many of us don't know much names of mocktails and only find those known mocktails. But here we can explore mocktails over 12 countries easily.<br>
+3. When we need to make mocktails we can just find it through to do list where our previously favourited mocktails are enlisted.<br>
+4. We can easily find mocktails according to our specifications by using filters.<br>
+5. We don't have to search recipes in google or you tube so it saves our time.<br>
 ## Folder Structure :point_down:
 ```bash
 mocktail-recipe-finder
