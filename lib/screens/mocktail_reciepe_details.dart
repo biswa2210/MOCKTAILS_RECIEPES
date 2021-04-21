@@ -73,7 +73,7 @@ class _MtRecipeDetailState extends State<MtRecipeDetail>with SingleTickerProvide
             Container(
               height: 300,
               width: double.infinity,
-              child: Image.network(selectedMockTail.imgUrl,
+              child: Image.asset(selectedMockTail.imgUrl,
               fit: BoxFit.cover,),
             ),
     SizedBox(
