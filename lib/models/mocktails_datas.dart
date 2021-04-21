@@ -63,34 +63,34 @@ const DUMMY_CATAGORIES=const [
 ];
 const MOCKTAILS=const [
   MockTail(
-    id: 'mt1',
-    categories:[
-      'Indian',
-    ],
-    title:'Blue Lagoon',
-    affordability: Affordability.Affordable,
-    complexity: Complexity.Simple,
-    imgUrl:'https://i.pinimg.com/564x/88/55/de/8855de07a77e092b20914430b164fa35.jpg',
-    duration: 10,
-    ingredients: [
-      'Blue Curacao syrup - 40 ml',
-      'Fresh Lemon Juice - 1/2 Tsp',
-      'Simple Sugar Syrup - 1.5 Tsp',
-	  'Sprite or 7 up - 200 ml',
-	  'Soda - 60 ml',
-	  'Lemon Wedges for garnishing'
-    ],
-    steps: [
-      'Take a glass and add Blue Curacao syrup,Fresh Lemon Juice,Simple Sugar Syrup to it. ',
-      'Now add Lemon Wedges, fill half glass with ice',
-      'Now add sprite or 7 up and top it with soda',
-      'Stir lightly with spoon and add lemon wedges for garnishing'
-    ] ,
-    expensive: false,
-    halloween: false,
-    affordable: true,
-    alcoholic: false,
-    nonalcoholic: true
+      id: 'mt1',
+      categories:[
+        'Indian',
+      ],
+      title:'Blue Lagoon',
+      affordability: Affordability.Affordable,
+      complexity: Complexity.Simple,
+      imgUrl:'assets/images/moc1.jpg',
+      duration: 10,
+      ingredients: [
+        'Blue Curacao syrup - 40 ml',
+        'Fresh Lemon Juice - 1/2 Tsp',
+        'Simple Sugar Syrup - 1.5 Tsp',
+        'Sprite or 7 up - 200 ml',
+        'Soda - 60 ml',
+        'Lemon Wedges for garnishing'
+      ],
+      steps: [
+        'Take a glass and add Blue Curacao syrup,Fresh Lemon Juice,Simple Sugar Syrup to it. ',
+        'Now add Lemon Wedges, fill half glass with ice',
+        'Now add sprite or 7 up and top it with soda',
+        'Stir lightly with spoon and add lemon wedges for garnishing'
+      ] ,
+      expensive: false,
+      halloween: false,
+      affordable: true,
+      alcoholic: false,
+      nonalcoholic: true
   ),
   MockTail(
       id: 'mt2',
@@ -100,13 +100,13 @@ const MOCKTAILS=const [
       title:'Midori Lagoon',
       affordability: Affordability.Affordable,
       complexity: Complexity.Simple,
-      imgUrl:'http://www.monstercocktails.com/image/223/645',
+      imgUrl:'assets/images/moc2.jfif',
       duration: 10,
       ingredients: [
         'Midory Melon Liqueur',
         'Vodka or Sprite',
         'Club Soda - 2 Top',
-		'Lime Wedges for garnishing'
+        'Lime Wedges for garnishing'
       ],
       steps: [
         'Fill the glass full of ice',
@@ -128,18 +128,18 @@ const MOCKTAILS=const [
       title:'Purple Rain',
       affordability: Affordability.Pricey,
       complexity: Complexity.Challenging,
-      imgUrl:'https://i1.wp.com/www.rasoimenu.com/wp-content/uploads/2017/05/Purple-Rain-Recipe-by-Rasoi-Menu.jpg?fit=1280%2C660&ssl=1',
+      imgUrl:'assets/images/moc3.jpg',
       duration: 15,
       ingredients: [
         'ice',
         '75ml vodka',
         '75ml gin',
-		'50ml blue curaçao',
-		'50ml lime juice',
-		'50ml lemon juice',
-		'200ml soda water',
-		'150ml grenadine',
-		'lime slices, to garnish'
+        '50ml blue curaçao',
+        '50ml lime juice',
+        '50ml lemon juice',
+        '200ml soda water',
+        '150ml grenadine',
+        'lime slices, to garnish'
       ],
       steps: [
         'Half-fill a 1.5-litre jug with ice',
@@ -161,14 +161,14 @@ const MOCKTAILS=const [
       title:'Bloody Marry',
       affordability: Affordability.Luxurious,
       complexity: Complexity.Hard,
-      imgUrl:'https://www.socialgoat.in/PR1670/public/styles/6_col_gutter_portrait/public/2019-12/bloody%20mary%20cocktail.jpg',
+      imgUrl:'assets/images/moc4.jpg',
       duration: 20,
       ingredients: [
         '3 cups V8® 100% Vegetable Juice',
         '1 teaspoon prepared horseradish',
         '1 teaspoon Worcestershire sauce',
-		'1/2 teaspoon hot pepper sauce',
-		'3 slices lemon'
+        '1/2 teaspoon hot pepper sauce',
+        '3 slices lemon'
       ],
       steps: [
         'Stir the vegetable juice, horseradish, Worcestershire and hot pepper sauce in a small pitcher.',
@@ -188,12 +188,12 @@ const MOCKTAILS=const [
       title:'Japanise Slipper',
       affordability: Affordability.Affordable,
       complexity: Complexity.Simple,
-      imgUrl:'https://i.ytimg.com/vi/0E2VqAKzXSM/maxresdefault.jpg',
+      imgUrl:'assets/images/moc5.jpg',
       duration: 10,
       ingredients: [
         '3 cl (1 part) Midori',
-		'3 cl (1 part) cointreau',
-		'3 cl (1 part) lemon juice'
+        '3 cl (1 part) cointreau',
+        '3 cl (1 part) lemon juice'
       ],
       steps: [
         'Shake together in a mixer with ice.',
@@ -213,31 +213,31 @@ const MOCKTAILS=const [
       title:'Winter\'s Ginger' ,
       affordability: Affordability.Luxurious,
       complexity: Complexity.Hard,
-      imgUrl:'https://www.tropicana.com/images/default-source/us-site/recipe-hub/cocktail-heroes-(mobile)/trop_us_mobile_recipehub_cocktailhero_0006_wintersginger.jpg?Status=Master&sfvrsn=2',
+      imgUrl:'assets/images/moc6.jpg',
       duration: 30,
       ingredients: [
         '2 ounces TROPICANA® Lemonade',
-		'¼ ounce honey syrup*',
-		'¼ ounce ginger syrup**',
-		'1 ½ ounces scotch',
-		'Candied ginger for garnish'
-		'Honey Syrup ingredients - 1 cup honey and water',
-		'Ginger Syrup ingredients - 1 cup fresh ginger, chopped, 1 cup sugar, 1 ½ cups water'
+        '¼ ounce honey syrup*',
+        '¼ ounce ginger syrup**',
+        '1 ½ ounces scotch',
+        'Candied ginger for garnish'
+            'Honey Syrup ingredients - 1 cup honey and water',
+        'Ginger Syrup ingredients - 1 cup fresh ginger, chopped, 1 cup sugar, 1 ½ cups water'
       ],
       steps: [
         'For Honey Syrup - Combine the honey and water in a small saucepan over medium heat.',
         'Stir until the honey has dissolved.',
-		'Remove from heat and let cool to room temperature.',
-		'Transfer to a clean glass jar.'
-		'Cover and refrigerate.',
+        'Remove from heat and let cool to room temperature.',
+        'Transfer to a clean glass jar.'
+            'Cover and refrigerate.',
         'For Ginger Syrup - Combine all ingredients in a large pot and stir until it comes to a boil.',
-		'Reduce to a simmer over medium-low heat and cook for one hour.',
-		'Remove from heat and allow to cool to room temperature.',
-		'Strain the syrup twice through a sieve or cheesecloth into a glass jar and refrigerate.',
-		'Main INSTRUCTIONS: Combine all ingredients in a cocktail shaker.',
-		'Shake well.',
-		'Strain over ice in a rocks glass.',
-		'Garnish with candied ginger.'
+        'Reduce to a simmer over medium-low heat and cook for one hour.',
+        'Remove from heat and allow to cool to room temperature.',
+        'Strain the syrup twice through a sieve or cheesecloth into a glass jar and refrigerate.',
+        'Main INSTRUCTIONS: Combine all ingredients in a cocktail shaker.',
+        'Shake well.',
+        'Strain over ice in a rocks glass.',
+        'Garnish with candied ginger.'
       ] ,
       expensive: true,
       halloween: false,
@@ -253,15 +253,15 @@ const MOCKTAILS=const [
       title:'Blue Hawaiian' ,
       affordability: Affordability.Pricey,
       complexity: Complexity.Challenging,
-      imgUrl:'https://tornadoughalli.com/wp-content/uploads/2020/05/BLUE-BAWAIIAN-1.jpg',
+      imgUrl:'assets/images/moc7.jpg',
       duration: 15,
       ingredients: [
         '1 fl oz Clarified lime',
-		'2 Pineapple, small wedges',
-		'5 fl oz Cream soda',
-		'2 fl oz Pineapple juice',
-		'3/4 cup Ice',
-		'2 Maraschino cherries'
+        '2 Pineapple, small wedges',
+        '5 fl oz Cream soda',
+        '2 fl oz Pineapple juice',
+        '3/4 cup Ice',
+        '2 Maraschino cherries'
       ],
       steps: [
         'Combine all ingredients with ice, stir or shake, then pour into a hurricane glass with the ice. ',
@@ -282,15 +282,15 @@ const MOCKTAILS=const [
       title:'The Maxican Martini' ,
       affordability: Affordability.Pricey,
       complexity: Complexity.Challenging,
-      imgUrl:'https://www.fivehearthome.com/wp-content/uploads/2015/04/Mexican-Martini-Trudys-Recipe-Margarita-on-the-Rocks-with-Olive-Juice-by-Five-Heart-Home_700pxHoriz-1.jpg',
+      imgUrl:'assets/images/moc8.jpg',
       duration: 15,
       ingredients: [
-        '2  ounces reposado tequila',	
-		'1  ounce Cointreau',
-		'1  ounce fresh lime juice',
-		'¾  ounce fresh orange juice',
-		'½  ounce olive brine',
-		'2  olives'
+        '2  ounces reposado tequila',
+        '1  ounce Cointreau',
+        '1  ounce fresh lime juice',
+        '¾  ounce fresh orange juice',
+        '½  ounce olive brine',
+        '2  olives'
       ],
       steps: [
         'Wet half the lip of a martini glass and dip it in salt. ',
@@ -312,15 +312,15 @@ const MOCKTAILS=const [
       title:'Matcha Detox' ,
       affordability: Affordability.Affordable,
       complexity: Complexity.Simple,
-      imgUrl:'https://pbs.twimg.com/media/DzSgGkXXgAEkN6u.jpg',
+      imgUrl:'assets/images/moc9.jpg',
       duration: 10,
       ingredients: [
         '150ml pineapple juice',
-		'10ml syrup',
-		'6 limes',
-		'mint',
-		'1/2 teaspoon fresh grated ginger',
-		'matcha powder',
+        '10ml syrup',
+        '6 limes',
+        'mint',
+        '1/2 teaspoon fresh grated ginger',
+        'matcha powder',
       ],
       steps: [
         'Muddle the limes, syrup, mint and ginger into a shaker.',
@@ -340,16 +340,16 @@ const MOCKTAILS=const [
       title:'Sakuranbo Bitter' ,
       affordability: Affordability.Pricey,
       complexity: Complexity.Challenging,
-      imgUrl:'https://images.japancentre.com/recipes/pics/1390/main/sakuranbo-bitter.jpg?1469573811',
+      imgUrl:'assets/images/moc10.jpg',
       duration: 15,
       ingredients: [
         '50ml yuzu umeshu',
-		'30ml cherry brandy',
-		'25ml campari',
-		'topping of ginger ale'
+        '30ml cherry brandy',
+        '25ml campari',
+        'topping of ginger ale'
       ],
       steps: [
-        'Mix all the ingredients together with ice and strain into a highball glass over ice cubes and top up with ginger ale.' 
+        'Mix all the ingredients together with ice and strain into a highball glass over ice cubes and top up with ginger ale.'
       ] ,
       expensive: true,
       halloween: false,
@@ -365,13 +365,13 @@ const MOCKTAILS=const [
       title:'Hokkaido Ice' ,
       affordability: Affordability.Affordable,
       complexity: Complexity.Simple,
-      imgUrl:'https://images.japancentre.com/recipes/pics/1326/main/hokkaido-ice.jpg?1469573673',
+      imgUrl:'assets/images/moc11.jpg',
       duration: 10,
       ingredients: [
         '60ml josen sake',
-		'40ml blu curacao',
-		'30ml frangelico',
-		'20ml coconut milk'
+        '40ml blu curacao',
+        '30ml frangelico',
+        '20ml coconut milk'
       ],
       steps: [
         'Hard shake and double strain all the ingredients into a chilled martini glass.',
@@ -391,15 +391,15 @@ const MOCKTAILS=const [
       title:'Kaede Maple' ,
       affordability: Affordability.Luxurious,
       complexity: Complexity.Hard,
-      imgUrl:'https://images.japancentre.com/recipes/pics/1305/main/kaede-maple-cropped.jpg?1469573632',
+      imgUrl:'assets/images/moc12.jpg',
       duration: 20,
       ingredients: [
-        '40ml jinzu gin', 
-		'40ml apricot brandy',
-		'30ml passion fruit',
-		'30ml namazake',
-		'dry lavender',
-		'lavender sticks (for garnish)'
+        '40ml jinzu gin',
+        '40ml apricot brandy',
+        '30ml passion fruit',
+        '30ml namazake',
+        'dry lavender',
+        'lavender sticks (for garnish)'
       ],
       steps: [
         'Muddle the dry lavender and then shake and double strain all of the ingredients into a chilled coupe glass. ',
@@ -419,13 +419,13 @@ const MOCKTAILS=const [
       title:'Sake Fizz' ,
       affordability: Affordability.Affordable,
       complexity: Complexity.Simple,
-      imgUrl:'https://images.japancentre.com/recipes/pics/1298/main/sake-fizz-cropped.jpg?1469573615',
+      imgUrl:'assets/images/moc13.jpg',
       duration: 10,
       ingredients: [
         '45ml sake, preferably tama no hikari, chilled',
-		'30ml yuzu juice',
-		'1 tbsp gomme syrup',
-		'75ml sparkling wine, chilled'
+        '30ml yuzu juice',
+        '1 tbsp gomme syrup',
+        '75ml sparkling wine, chilled'
       ],
       steps: [
         'Chill the Martini glasses in the fridge for at least half an hour before making.',
@@ -445,13 +445,13 @@ const MOCKTAILS=const [
       title:'Kyoto Fall' ,
       affordability: Affordability.Pricey,
       complexity: Complexity.Challenging,
-      imgUrl:'https://images.japancentre.com/recipes/pics/1303/main/kyoto-fall-cropped.jpg?1469573627',
+      imgUrl:'assets/images/moc14.jpg',
       duration: 15,
       ingredients: [
         '40ml krupnik honey vodka',
-		'30ml absolut wild tea & elderflower',
-		'50ml hojicha roasted green tea',
-		'40ml apple juice'
+        '30ml absolut wild tea & elderflower',
+        '50ml hojicha roasted green tea',
+        '40ml apple juice'
       ],
       steps: [
         'Shake and strain all the ingredients into a highball glass over ice cubes. Serve with 2 long straws. Enjoy.'
@@ -470,13 +470,13 @@ const MOCKTAILS=const [
       title:'Shochu Caipirinha' ,
       affordability: Affordability.Affordable,
       complexity: Complexity.Hard,
-      imgUrl:'https://images.japancentre.com/recipes/pics/913/main/913-Shochu-Caipirinha.jpg?1469573365',
+      imgUrl:'assets/images/moc15.jpg',
       duration: 20,
       ingredients: [
         '1 lime',
-		'6 tbsp shochu',
-		'4 tbsp sugar',
-		'crushed ice'
+        '6 tbsp shochu',
+        '4 tbsp sugar',
+        'crushed ice'
       ],
       steps: [
         'Roll the lime a few times on your chopping board to loosen up the juices. Cut into slices and put in your glasses.',
@@ -498,22 +498,22 @@ const MOCKTAILS=const [
       title:'Margarita-ish Mocktail' ,
       affordability: Affordability.Luxurious,
       complexity: Complexity.Hard,
-      imgUrl:'https://pineandcrave.files.wordpress.com/2016/05/img_2677-3.jpg?w=1024',
+      imgUrl:'assets/images/moc16.jpg',
       duration: 20,
       ingredients: [
         'Juice from one lime (cut one slice before you juice your lime so you have it for a garnish)',
-		'2 teaspoons raw honey',
-		'6 ounces tonic water',
-		'2-3 slices of jalapeno',
-		'A dash of sea salt flakes',
-		'3/4 to 1 cup ice'
+        '2 teaspoons raw honey',
+        '6 ounces tonic water',
+        '2-3 slices of jalapeno',
+        'A dash of sea salt flakes',
+        '3/4 to 1 cup ice'
       ],
       steps: [
         'Pour honey into a 14-ounce glass and add 1 to 2 tablespoons of hot water. Stir to dissolve honey.',
         'Pour in lime juice.',
         'Fill glass with ice and pour in about 6 ounces of tonic water.',
         'Add 2 or 3 slices of jalapeno, then stir.',
-		'Sprinkle with some salt flakes, then garnish with lime slice.'
+        'Sprinkle with some salt flakes, then garnish with lime slice.'
       ] ,
       expensive: true,
       halloween: false,
@@ -529,20 +529,20 @@ const MOCKTAILS=const [
       title:'Agua de Jamaica' ,
       affordability: Affordability.Affordable,
       complexity: Complexity.Hard,
-      imgUrl:'https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F43%2F2016%2F07%2Fhibiscusteahibiscussabda_296542-1.jpg',
+      imgUrl:'assets/images/moc17.jfif',
       duration: 25,
       ingredients: [
         '2 quarts (8 cups) water',
-		'1.5 cups dried hibiscus flowers',
-		'2/3 cup sugar (add more/less to taste)',
-		'1/3 cup fresh orange, lemon or lime juice (optional)'
+        '1.5 cups dried hibiscus flowers',
+        '2/3 cup sugar (add more/less to taste)',
+        '1/3 cup fresh orange, lemon or lime juice (optional)'
       ],
       steps: [
         'Bring water to boil in a saucepan. Add sugar, and stir until dissolved. Remove from heat, then add hibiscus flours and stir to combine.  ',
         'Let steep for about 20 minutes, the remove the hibiscus flowers with a strainer.',
         'Stir in citrus juice if desired, then refrigerate. Serve over ice.'
-		'*You can also make this as sun tea, and let the water and hibiscus sit out in the sunlight all day.',
-		'**Also, this may go without saying, but be careful not to spill the drink on your clothing when making/straining. Those pink hibiscus leaves can stain clothes very easily!'
+            '*You can also make this as sun tea, and let the water and hibiscus sit out in the sunlight all day.',
+        '**Also, this may go without saying, but be careful not to spill the drink on your clothing when making/straining. Those pink hibiscus leaves can stain clothes very easily!'
       ] ,
       expensive: false,
       halloween: false,
@@ -558,21 +558,21 @@ const MOCKTAILS=const [
       title:'Raspberry Hibiscus Iced Tea' ,
       affordability: Affordability.Affordable,
       complexity: Complexity.Challenging,
-      imgUrl:'https://pineandcrave.files.wordpress.com/2016/06/img_4154-2.jpg?w=398&h=398',
+      imgUrl:'assets/images/moc18.jpg',
       duration: 20,
       ingredients: [
         '5 cups water',
-		'1/3 cup loose hibiscus tea',
-		'1/2 cup raspberries',
-		'12 large mint leaves',
-		'1-2 tbsp honey'
+        '1/3 cup loose hibiscus tea',
+        '1/2 cup raspberries',
+        '12 large mint leaves',
+        '1-2 tbsp honey'
       ],
       steps: [
         'Pour loose hibiscus tea into a large bowl and set aside.',
         'Next, bring water to a boil. Once boiling, remove from heat and pour it over the loose tea.',
         'Add the raspberries, mint and honey to the pitcher and then let tea steep for approximately 20 minutes.',
         'Pour tea through a fine mesh strainer and into a large bowl or pitcher, and then place the pitcher in the refrigerator until it\'s cold.',
-		'Serve tea over ice and enjoy!'
+        'Serve tea over ice and enjoy!'
       ] ,
       expensive: false,
       halloween: false,
@@ -588,13 +588,13 @@ const MOCKTAILS=const [
       title:'Agua Fresca de Pepino' ,
       affordability: Affordability.Affordable,
       complexity: Complexity.Simple,
-      imgUrl:'https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F5238075.jpg&w=596&h=596&c=sc&poi=face&q=85',
+      imgUrl:'assets/images/moc19.jfif',
       duration: 10,
       ingredients: [
         '3 quarts water',
-		'3 English cucumbers, peeled and coarsely sliced',
-		'7 limes, juiced to yeild 1/2 cup worth',
-		'1/4 cup sugar, or more'
+        '3 English cucumbers, peeled and coarsely sliced',
+        '7 limes, juiced to yeild 1/2 cup worth',
+        '1/4 cup sugar, or more'
       ],
       steps: [
         'Put 1/2 cup of water in a blender container with 1 cup of sliced cucumber. Blend. Add more cucumber and blend. Continue until all the cucumbers are pureed.',
@@ -614,27 +614,27 @@ const MOCKTAILS=const [
       title:'Cranberry Mojito Mocktail' ,
       affordability: Affordability.Luxurious,
       complexity: Complexity.Hard,
-      imgUrl:'https://imgix.bustle.com/lovelace/uploads/544/00a238c0-ed39-0133-243e-0e1b1c96d76b.jpg?w=414&h=276.75616438356167&auto=format%2Ccompress&cs=srgb&q=70&fit=crop&crop=faces&dpr=2',
+      imgUrl:'assets/images/moc20.jpg',
       duration: 15,
       ingredients: [
         '1 c. cranberry juice',
-		'1 c. Seltzer water',
-		'1/4 c. lime juice',
-		'6 oz. light rum',
-		'2 tsp. honey',
-		'1/3 c. mint leaves',
-		'3 c. ice',
-		'lime slices, for garnish',
-		'Cranberries for garnishINGREDIENTS',
-		'1 c. cranberry juice',
-		'1 c. Seltzer water',
-		'1/4 c. lime juice',
-		'6 oz. light rum',
-		'2 tsp. honey',
-		'1/3 c. mint leaves',
-		'3 c. ice',
-		'lime slices, for garnish',
-		'Cranberries for garnish'
+        '1 c. Seltzer water',
+        '1/4 c. lime juice',
+        '6 oz. light rum',
+        '2 tsp. honey',
+        '1/3 c. mint leaves',
+        '3 c. ice',
+        'lime slices, for garnish',
+        'Cranberries for garnishINGREDIENTS',
+        '1 c. cranberry juice',
+        '1 c. Seltzer water',
+        '1/4 c. lime juice',
+        '6 oz. light rum',
+        '2 tsp. honey',
+        '1/3 c. mint leaves',
+        '3 c. ice',
+        'lime slices, for garnish',
+        'Cranberries for garnish'
       ],
       steps: [
         'Combine cranberry juice, seltzer water, lime juice, rum, mint leaves and honey and mix to combine.',
@@ -654,13 +654,13 @@ const MOCKTAILS=const [
       title:' Lemon Lavender Mocktail' ,
       affordability: Affordability.Affordable,
       complexity: Complexity.Simple,
-      imgUrl:'https://imgix.bustle.com/lovelace/uploads/544/83be7840-ed39-0133-800e-0e31b36aeb7f.jpg?w=414&h=596.613698630137&auto=format%2Ccompress&cs=srgb&q=70&fit=crop&crop=faces&dpr=2',
+      imgUrl:'assets/images/moc21.jpg',
       duration: 10,
       ingredients: [
         '1/4 cup Fresh Lemon Juice',
-		'1/2 tbsp Lavender Simple Syrup (See below)',
-		'1/4 tsp Grenadine',
-		'3 dashes Bitters'
+        '1/2 tbsp Lavender Simple Syrup (See below)',
+        '1/4 tsp Grenadine',
+        '3 dashes Bitters'
       ],
       steps: [
         'Combine above in shaker with ice and shake until cold. ',
@@ -681,26 +681,26 @@ const MOCKTAILS=const [
       title:'Cranberry Citrus Mocktail with Mint' ,
       affordability: Affordability.Pricey,
       complexity: Complexity.Hard,
-      imgUrl:'https://imgix.bustle.com/lovelace/uploads/544/4cc62260-ed3a-0133-243b-0e1b1c96d76b.jpg?w=414&h=299.3538461538461&auto=format%2Ccompress&cs=srgb&q=70&fit=crop&crop=faces&dpr=2',
+      imgUrl:'assets/images/moc22.jpg',
       duration: 15,
       ingredients: [
         'Mocktail',
-		'Juice of 1 orange',
-		'Juice of 1 lime',
-		'1/4 cup of 100% pure cranberry juice (such as Trader Joe’s 100% cranberry juice)*',
-		'1 tablespoon of simple syrup (recipe below)',
-		'7-8 mint leaves, torn or roughly chopped',
-		'1/2 cup ice',
-		'1/2 cups sparkling water',
-		'Additional mint sprigs or orange slices for garnish'
+        'Juice of 1 orange',
+        'Juice of 1 lime',
+        '1/4 cup of 100% pure cranberry juice (such as Trader Joe’s 100% cranberry juice)*',
+        '1 tablespoon of simple syrup (recipe below)',
+        '7-8 mint leaves, torn or roughly chopped',
+        '1/2 cup ice',
+        '1/2 cups sparkling water',
+        'Additional mint sprigs or orange slices for garnish'
       ],
       steps: [
         'Add the orange juice, lime juice, cranberry juice, simple syrup, mint leaves and ice to a cocktail shaker.',
         'Shake the mixture vigorously for about 10-15 seconds.',
         'Pour the juice mixture evenly into two chilled glasses.',
         'Add about 3/4 cups sparkling water to each glass.',
-		'Add additional ice and garnish with mint leaves or orange slices if desired.',
-		'Serve and enjoy!'
+        'Add additional ice and garnish with mint leaves or orange slices if desired.',
+        'Serve and enjoy!'
       ] ,
       expensive: true,
       halloween: false,
@@ -716,23 +716,23 @@ const MOCKTAILS=const [
       title:'Strawberry Basil Soda' ,
       affordability: Affordability.Affordable,
       complexity: Complexity.Challenging,
-      imgUrl:'https://imgix.bustle.com/lovelace/uploads/413/3925b1a0-ee0d-0133-8011-0e31b36aeb7f.png?w=414&h=355.4732142857143&auto=format%2Ccompress&cs=srgb&q=70&fit=crop&crop=faces&dpr=2',
+      imgUrl:'assets/images/moc23.jfif',
       duration: 15,
       ingredients: [
         '6 fresh strawberries, sliced',
-		'12 fresh basil leaves',
-		'1/4 cup sugar',
-		'Ice cubes',
+        '12 fresh basil leaves',
+        '1/4 cup sugar',
+        'Ice cubes',
         '1/3 cup lemon juice',
-		'1/4 cups club soda, chilled',
-		'Additional fresh basil leaves, optional'
+        '1/4 cups club soda, chilled',
+        'Additional fresh basil leaves, optional'
       ],
       steps: [
         'In a shaker, muddle strawberries, basil and sugar.',
         'Fill shaker three-fourths full with ice; add lemon juice.',
         'Cover and shake 10-15 seconds or until condensation forms on outside of shaker.',
         'Strain into six rock glasses filled with ice.',
-		'Top with club soda and, if desired, additional basil leaves.'
+        'Top with club soda and, if desired, additional basil leaves.'
       ] ,
       expensive: false,
       halloween: false,
@@ -748,14 +748,14 @@ const MOCKTAILS=const [
       title:'Sparking Cucumber Limeade' ,
       affordability: Affordability.Pricey,
       complexity: Complexity.Hard,
-      imgUrl:'https://imgix.bustle.com/lovelace/uploads/544/3e12d170-ed3d-0133-8012-0e31b36aeb7f.jpg?w=414&h=621.3421487603306&auto=format%2Ccompress&cs=srgb&q=70&fit=crop&crop=faces&dpr=2',
+      imgUrl:'assets/images/moc24.jpg',
       duration: 35,
       ingredients: [
         '1 cup sugar',
-		'1 tablespoon lime zest, plus 1 cup fresh lime juice (4 to 6 limes)',
-		'1/4 cup fresh mint leaves, plus more for garnish',
-		'1 medium English cucumber, halved and thinly sliced',
-		'2 cups chilled sparkling water'
+        '1 tablespoon lime zest, plus 1 cup fresh lime juice (4 to 6 limes)',
+        '1/4 cup fresh mint leaves, plus more for garnish',
+        '1 medium English cucumber, halved and thinly sliced',
+        '2 cups chilled sparkling water'
       ],
       steps: [
         'In a small saucepan, bring the sugar, lime zest and 1 cup water to a simmer over medium heat, stirring constantly until the sugar dissolves, about 6 minutes.',
@@ -778,15 +778,15 @@ const MOCKTAILS=const [
       title:'Tokyo Drift' ,
       affordability: Affordability.Pricey,
       complexity: Complexity.Challenging,
-      imgUrl:'https://cdn.diffords.com/contrib/stock-images/2018/11/5beea05ff01d0.jpg',
+      imgUrl:'assets/images/moc25.jpg',
       duration: 15,
       ingredients: [
         '45 ml (1 ½ oz.) vodka',
-		'30 ml (1 oz.) lime juice',
-		'15 ml (1/2 oz.) cucumber syrup',
-		'25 ml (3/4 oz.) simple syrup',
-		'Fresh cilantro',
-		'Ice cubes'
+        '30 ml (1 oz.) lime juice',
+        '15 ml (1/2 oz.) cucumber syrup',
+        '25 ml (3/4 oz.) simple syrup',
+        'Fresh cilantro',
+        'Ice cubes'
       ],
       steps: [
         'In a shaker, crush some cilantro leaves in the cucumber syrup using a pestle.',
@@ -810,17 +810,17 @@ const MOCKTAILS=const [
       title:'SMOKEY JOE' ,
       affordability: Affordability.Luxurious,
       complexity: Complexity.Hard,
-      imgUrl:'https://lh3.googleusercontent.com/proxy/iWkiy-6qY-kjMZoV8AD0qYbMNOjz_fGb-aJg_Hm9-Mav6yYUtz41eYuvasBEbvGne9tzUfsY9qk7Gr995v-kLHv8oPwhyPeRDdCB6mR99ddpt5aPB0bYPV7k9VcPoV_OZiym',
+      imgUrl:'assets/images/moc26.jfif',
       duration: 15,
       ingredients: [
         '30ml vodka',
-		'30ml white rum',
-		'30ml tequila',
-		'15ml lime juice',
-		'2 dashes of grenadine',
-		'Orange juice',
-		'Orange slice - to garnish',		
-		'Ice'
+        '30ml white rum',
+        '30ml tequila',
+        '15ml lime juice',
+        '2 dashes of grenadine',
+        'Orange juice',
+        'Orange slice - to garnish',
+        'Ice'
       ],
       steps: [
         'Pour the vodka, white rum, tequila and lime juice into an ice filled highball glass and stir',
@@ -842,11 +842,11 @@ const MOCKTAILS=const [
       title:'ROSÉ CHERRY FAUXTINI' ,
       affordability: Affordability.Pricey,
       complexity: Complexity.Challenging,
-      imgUrl:'https://www.frewines.com/wp-content/uploads/2020/10/Fre_RoseCherry-4-scaled.jpg',
+      imgUrl:'assets/images/moc27.jpg',
       duration: 15,
       ingredients: [
         'FRE Sparkling Rosé',
-		'1oz Luxardo cherry juice'
+        '1oz Luxardo cherry juice'
       ],
       steps: [
         'Chill a martini glass.',
@@ -868,14 +868,14 @@ const MOCKTAILS=const [
       title:'GRAPEFRUIT SAGE' ,
       affordability: Affordability.Pricey,
       complexity: Complexity.Challenging,
-      imgUrl:'https://www.frewines.com/wp-content/uploads/2020/10/Fre_GrapefruitSage-2-scaled-e1601660807996.jpg',
+      imgUrl:'assets/images/moc28.jpg',
       duration: 15,
       ingredients: [
         'Fresh sage',
-		'Dash angostura bitters',
-		'1 Tbsp honey',
-		'4oz fresh grapefruit juice',
-		'4oz FRE Sparkling Brut'
+        'Dash angostura bitters',
+        '1 Tbsp honey',
+        '4oz fresh grapefruit juice',
+        '4oz FRE Sparkling Brut'
       ],
       steps: [
         'Muddle sage leaves in a cocktail shaker. ',
@@ -898,15 +898,15 @@ const MOCKTAILS=const [
       title:'ALCOHOL-REMOVED SANGRIA' ,
       affordability: Affordability.Pricey,
       complexity: Complexity.Hard,
-      imgUrl:'https://www.frewines.com/wp-content/uploads/2020/08/DSC8815-copy-scaled-e1596816836542.jpg',
+      imgUrl:'assets/images/moc29.jpg',
       duration: 15,
       ingredients: [
         'rape juice (white or red)',
-		'sparkling water',
-		'cranberry juice or orange juice',
-		'chopped fruit (grapes, oranges, tangerines, peaches, strawberries, apples, blueberries)',
-		'ice',
-		'chopped herbs and fresh citrus slices, to garnish'
+        'sparkling water',
+        'cranberry juice or orange juice',
+        'chopped fruit (grapes, oranges, tangerines, peaches, strawberries, apples, blueberries)',
+        'ice',
+        'chopped herbs and fresh citrus slices, to garnish'
       ],
       steps: [
         'Add the grape juice, orange juice, and sparkling water and chopped fruit to a large pitcher or drink dispenser.',
@@ -928,13 +928,13 @@ const MOCKTAILS=const [
       title:'BLACKBERRY PEAR SMASH' ,
       affordability: Affordability.Affordable,
       complexity: Complexity.Simple,
-      imgUrl:'https://www.thehopelesshousewife.com/wp-content/uploads/2012/10/MG_9849.jpg',
+      imgUrl:'assets/images/moc30.jpg',
       duration: 10,
       ingredients: [
         '4 fresh blackberries',
-		'1/2 fresh pear',
-		'2oz lemon juice',
-		'FRE Sparkling Brut'
+        '1/2 fresh pear',
+        '2oz lemon juice',
+        'FRE Sparkling Brut'
       ],
       steps: [
         'Muddle blackberries and pear slices in a glass. ',
@@ -956,15 +956,15 @@ const MOCKTAILS=const [
       title:'ALCOHOL FRE WINE MARGARITA' ,
       affordability: Affordability.Pricey,
       complexity: Complexity.Simple,
-      imgUrl:'https://www.frewines.com/wp-content/uploads/2018/09/alcohol-fre-wine-margarita.jpg',
+      imgUrl:'assets/images/moc31.jpg',
       duration: 15,
       ingredients: [
         '4 ounces Fre Chardonnay',
-		'3/4 ounce fresh lime Juice',
-		'1/2 ounce fresh lemon juice',
-		'3/4 ounce triple sec or fresh orange juice',
-		'1/2 ounce simple syrup',
-		'Garnish: salt and lime wheel'
+        '3/4 ounce fresh lime Juice',
+        '1/2 ounce fresh lemon juice',
+        '3/4 ounce triple sec or fresh orange juice',
+        '1/2 ounce simple syrup',
+        'Garnish: salt and lime wheel'
       ],
       steps: [
         'Shake all ingredients with ice, in a cocktail shaker. ',
@@ -986,12 +986,12 @@ const MOCKTAILS=const [
       title:'SPRITZ ME I’M DREAMING' ,
       affordability: Affordability.Pricey,
       complexity: Complexity.Simple,
-      imgUrl:'https://www.frewines.com/wp-content/uploads/2018/09/spritz-me-im-dreaming.jpg',
+      imgUrl:'assets/images/moc32.jpg',
       duration: 10,
       ingredients: [
         'Fre White Zinfandel',
-		'Fre Chardonnay',
-		'Soda water'
+        'Fre Chardonnay',
+        'Soda water'
       ],
       steps: [
         'Pour equal portions of Fre White Zinfandel and Fre Chardonnay',
@@ -1013,15 +1013,15 @@ const MOCKTAILS=const [
       title:'SAMBA-LICIOUS' ,
       affordability: Affordability.Pricey,
       complexity: Complexity.Challenging,
-      imgUrl:'https://www.frewines.com/wp-content/uploads/2018/12/samba-licious.png',
+      imgUrl:'assets/images/moc33.png',
       duration: 15,
       ingredients: [
         '1 heaping tablespoon diced mango',
-		'1 tablespoon shredded coconut',
-		'1/2 ounce lime juice',
-		'2 ounces Fre Chardonnay',
-		'2 ounces Tava Brazilian Samba',
-		'1 tablespoon sugar'
+        '1 tablespoon shredded coconut',
+        '1/2 ounce lime juice',
+        '2 ounces Fre Chardonnay',
+        '2 ounces Tava Brazilian Samba',
+        '1 tablespoon sugar'
       ],
       steps: [
         'Pour the sugar onto a small plate. Rub the rim of a champagne glass with a lime wedge, then dip it upside down onto the plate, coating it with sugar. ',
@@ -1044,14 +1044,14 @@ const MOCKTAILS=const [
       title:'SUGAR KISSES' ,
       affordability: Affordability.Affordable,
       complexity: Complexity.Simple,
-      imgUrl:'https://www.frewines.com/wp-content/uploads/2018/09/sugar-kiss-compressor.jpg',
+      imgUrl:'assets/images/moc34.jpg',
       duration: 10,
       ingredients: [
         ' 3 oz. Fre Chardonnay ',
-		'1 oz. fresh-squeezed lime juice. ',
-		'1 oz. simple syrup.',
-		'Bitters.',
-		'Sugar.'
+        '1 oz. fresh-squeezed lime juice. ',
+        '1 oz. simple syrup.',
+        'Bitters.',
+        'Sugar.'
       ],
       steps: [
         'Sugar rim of a chilled martini glass. In a cocktail shaker, combine 3 oz. Fre Chardonnay, 1 oz. fresh-squeezed lime juice, 1 oz. simple syrup and 3 splashes of bitters.',
@@ -1071,15 +1071,15 @@ const MOCKTAILS=const [
       title:'Kiwi Margarita' ,
       affordability: Affordability.Luxurious,
       complexity: Complexity.Simple,
-      imgUrl:'https://cocktaildudes.com/wp-content/uploads/2013/08/L1030789.jpg',
+      imgUrl:'assets/images/moc35.jpg',
       duration: 10,
       ingredients: [
         '½ cup superfine sugar',
-		'⅓ cup gold tequila',
-		'⅓ cup triple sec',
-		'2 large kiwis, peeled',
-		'1 cup fresh lime juice',
-		'2 cups small ice cubes'
+        '⅓ cup gold tequila',
+        '⅓ cup triple sec',
+        '2 large kiwis, peeled',
+        '1 cup fresh lime juice',
+        '2 cups small ice cubes'
       ],
       steps: [
         'Combine the sugar, tequila, triple sec, kiwis, and lime juice in a blender; fill with ice cubes; blend until smooth.'
@@ -1098,12 +1098,12 @@ const MOCKTAILS=const [
       title:'Mango Margarita' ,
       affordability: Affordability.Affordable,
       complexity: Complexity.Challenging,
-      imgUrl:'https://i2.wp.com/www.downshiftology.com/wp-content/uploads/2019/04/Mango-Margarita.jpg',
+      imgUrl:'assets/images/moc36.jpg',
       duration: 10,
       ingredients: [
         '1 1/2 ounces tequila',
-		'1 ounce mango liqueur',
-		'1/2 ounce lime juice'
+        '1 ounce mango liqueur',
+        '1/2 ounce lime juice'
       ],
       steps: [
         'Gather the ingredients.In a cocktail shaker filled with ice, pour the tequila, mango liqueur, and lime juice.',
@@ -1123,31 +1123,31 @@ const MOCKTAILS=const [
       title:'Triple Berry Margarita' ,
       affordability: Affordability.Luxurious,
       complexity: Complexity.Hard,
-      imgUrl:'https://driscolls.imgix.net/-/media/assets/recipes/triple-berry-margarita.ashx',
+      imgUrl:'assets/images/moc37.jfif',
       duration: 25,
       ingredients: [
         'FOR THE TRIPLE BERRY SYRUP - 1 cup water',
-		'3/4 cup sugar',
-		'1/3 cup blackberries',
-		'1/3 cup sliced strawberries',
-		'1/3 cup blueberries',
-		'FOR THE COCKTAILS - 1/4 cup sugar or salt (for glass rims)',
-		'2 cups ice (you can eyeball this)',
-		'1/2 cup triple berry simple syrup',
-		'1/2 cup fresh lime juice',
-		'1 cup tequila',
-		'Optional Garnishes: Lime slices, fresh berries'
+        '3/4 cup sugar',
+        '1/3 cup blackberries',
+        '1/3 cup sliced strawberries',
+        '1/3 cup blueberries',
+        'FOR THE COCKTAILS - 1/4 cup sugar or salt (for glass rims)',
+        '2 cups ice (you can eyeball this)',
+        '1/2 cup triple berry simple syrup',
+        '1/2 cup fresh lime juice',
+        '1 cup tequila',
+        'Optional Garnishes: Lime slices, fresh berries'
       ],
       steps: [
         'FOR THE TRIPLE BERRY SYRUP - Combine all ingredients in a medium saucepan over medium heat. Bring mixture to a simmer and cook 4-5 minutes until berries have softened and sugar has dissolved.',
         'Remove syrup from heat and let it cool completely.',
-		'Strain the simple syrup to remove the berry pieces and set strained simple syrup aside for the margaritas. (I like to save the cooked-down berries for smoothies later in the week!)',
+        'Strain the simple syrup to remove the berry pieces and set strained simple syrup aside for the margaritas. (I like to save the cooked-down berries for smoothies later in the week!)',
         'FOR THE COCKTAILS - Lay two plates down on the counter. Add just enough water to the first plate to cover its surface. Add your sugar or salt (I like sugar on my cocktail glasses!) to the second plate and spread it out evenly. ',
         'Grab four cocktail glasses and dip the rim of each glass lightly into the shallow water on the first plate, and then into the sugar or salt on the second plate.',
-		'Shake off the excess, fill each glass with 1/4 cup or so of ice, and set aside.',
-		'Combine triple berry simple syrup, lime juice, and tequila in a cocktail shaker. (Depending on the size of your shaker, you may need to do this in two batches). Add a handful of ice and shake well until margaritas are chilled.',
-		'Divide margaritas evenly between your four cocktail glasses.',
-		'Garnish margaritas with extra lime slices and fresh berries (optional) and serve immediately.'
+        'Shake off the excess, fill each glass with 1/4 cup or so of ice, and set aside.',
+        'Combine triple berry simple syrup, lime juice, and tequila in a cocktail shaker. (Depending on the size of your shaker, you may need to do this in two batches). Add a handful of ice and shake well until margaritas are chilled.',
+        'Divide margaritas evenly between your four cocktail glasses.',
+        'Garnish margaritas with extra lime slices and fresh berries (optional) and serve immediately.'
       ] ,
       expensive: true,
       halloween: false,
@@ -1163,12 +1163,12 @@ const MOCKTAILS=const [
       title:'Green Punch' ,
       affordability: Affordability.Affordable,
       complexity: Complexity.Simple,
-      imgUrl:'https://food.fnr.sndimg.com/content/dam/images/food/fullset/2012/10/16/0/YW0207_Green-Punch_s4x3.jpg.rend.hgtvcom.616.462.suffix/1371611964225.jpeg',
+      imgUrl:'assets/images/moc38.jpeg',
       duration: 15,
       ingredients: [
         '1 gallon of green berry rush Hawaiian Punch',
-		'1, 46 ounce can of pineapple juice',
-		'1 liter of ginger ale'
+        '1, 46 ounce can of pineapple juice',
+        '1 liter of ginger ale'
       ],
       steps: [
         'Chill all three ingredients.Mix all the ingredients together, stir to combine and serve.'
@@ -1187,20 +1187,20 @@ const MOCKTAILS=const [
       title:'Cocotini at Redemtion' ,
       affordability: Affordability.Affordable,
       complexity: Complexity.Simple,
-      imgUrl:'https://media.timeout.com/images/103344414/380/285/image.jpg',
+      imgUrl:'assets/images/moc39.jpg',
       duration: 10,
       ingredients: [
         '6 Leaf(ves) Mint',
-		'0.50 Oz Lemon juice',
-		'0.50 Oz Coconut syrup',
-		'2 Oz Pineapple juice',
-		'1 Oz Bacardi white rum',
-		'ice'
+        '0.50 Oz Lemon juice',
+        '0.50 Oz Coconut syrup',
+        '2 Oz Pineapple juice',
+        '1 Oz Bacardi white rum',
+        'ice'
       ],
       steps: [
         'In a shaker, add the mint leaves ripped in 2 and pour the other ingredients out.',
-		'Add the ice and shake well for 8 to 10 seconds.',
-		'Pour the mix out, through a cocktail strainer, into a Martini glass.'
+        'Add the ice and shake well for 8 to 10 seconds.',
+        'Pour the mix out, through a cocktail strainer, into a Martini glass.'
       ] ,
       expensive: false,
       halloween: false,
@@ -1216,16 +1216,16 @@ const MOCKTAILS=const [
       title:'Seaside Sunrise' ,
       affordability: Affordability.Pricey,
       complexity: Complexity.Challenging,
-      imgUrl:'https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fcdn-image.myrecipes.com%2Fsites%2Fdefault%2Ffiles%2Fstyles%2Fmedium_2x%2Fpublic%2Fimage%2Frecipes%2Fcl%2F13%2F07%2Fseaside-sunrise-cl-x.jpg%3Fitok%3D9cFu8KPq',
+      imgUrl:'assets/images/moc40.jfif',
       duration: 15,
       ingredients: [
         '2 cups pineapple juice',
-		'2 cups orange-mango juice',
-		'2 cups passion fruit–flavored rum',
-		'1 cup cranberry juice cocktail',
-		'2 tablespoons grenadine',
-		'1 (750-milliliter) bottle sparkling wine (optional)', 
-		'Garnishes: orange and lime slices'
+        '2 cups orange-mango juice',
+        '2 cups passion fruit–flavored rum',
+        '1 cup cranberry juice cocktail',
+        '2 tablespoons grenadine',
+        '1 (750-milliliter) bottle sparkling wine (optional)',
+        'Garnishes: orange and lime slices'
       ],
       steps: [
         'Combine first 5 ingredients in a large pitcher. Pour into ice-filled glasses, and top with sparkling wine, if desired. Garnish, if desired.'
@@ -1244,7 +1244,7 @@ const MOCKTAILS=const [
       title:'Kanishka' ,
       affordability: Affordability.Pricey,
       complexity: Complexity.Challenging,
-      imgUrl:'https://offloadmedia.feverup.com/secretldn.com/wp-content/uploads/2020/01/18082222/Kanishka-593x888.jpg',
+      imgUrl:'assets/images/moc41.jpg',
       duration: 20,
       ingredients: [
         'Pineapple Blossom beverage',
@@ -1267,7 +1267,7 @@ const MOCKTAILS=const [
       title:'Coupette' ,
       affordability: Affordability.Pricey,
       complexity: Complexity.Challenging,
-      imgUrl:'https://offloadmedia.feverup.com/secretldn.com/wp-content/uploads/2020/01/18082223/coup-winter-6-788x524.jpg',
+      imgUrl:'assets/images/moc42.jpg',
       duration: 10,
       ingredients: [
         'Saicho Hojicha Sparkling Tea',
@@ -1291,7 +1291,7 @@ const MOCKTAILS=const [
       title:'Dishoom' ,
       affordability: Affordability.Affordable,
       complexity: Complexity.Simple,
-      imgUrl:'https://offloadmedia.feverup.com/secretldn.com/wp-content/uploads/2020/01/18082229/Dishoom-1024x640.jpg',
+      imgUrl:'assets/images/moc43.jpg',
       duration: 10,
       ingredients: [
         'Sober Martini',
@@ -1314,13 +1314,13 @@ const MOCKTAILS=const [
       title:'Nightjar' ,
       affordability: Affordability.Luxurious,
       complexity: Complexity.Challenging,
-      imgUrl:'https://offloadmedia.feverup.com/secretldn.com/wp-content/uploads/2020/01/18082224/Nightjar-666x832.jpg',
+      imgUrl:'assets/images/moc44.jpg',
       duration: 10,
       ingredients: [
         '45 ml - Batanga Reposado',
         '15 ml - Campari',
         '35 ml	Fresh Pineapple Juice',
-		'25 ml	Sage Syrup',
+        '25 ml	Sage Syrup',
       ],
       steps: [
         'Combine all ingredients in a shaker over cubed ice. Shake & double strain over fresh cubed ice in a tumbler.',
@@ -1339,14 +1339,14 @@ const MOCKTAILS=const [
       title:'Death Eater\'s Draught',
       affordability: Affordability.Luxurious,
       complexity: Complexity.Hard,
-      imgUrl:'https://i.pinimg.com/564x/7f/28/28/7f2828de0984c60107451c4e635b65bb.jpg',
+      imgUrl:'assets/images/moc45.jpg',
       duration: 20,
       ingredients: [
         'Pomegranate juice – I love to buy Pom for its concentrated flavors, especially for cocktails.',
-		'Bourbon – any good brand will do. I personally love the Knob Creek brand.',
-		'Sweet Vermouth – an integral part of Manhattan',
-		'Angostura bitters and Orange bitters – just a dash of these rounds off the flavors and makes it like something you ordered at a bar.',
-		'Thyme – a little herby note that complements all the other flavors.'
+        'Bourbon – any good brand will do. I personally love the Knob Creek brand.',
+        'Sweet Vermouth – an integral part of Manhattan',
+        'Angostura bitters and Orange bitters – just a dash of these rounds off the flavors and makes it like something you ordered at a bar.',
+        'Thyme – a little herby note that complements all the other flavors.'
       ],
       steps: [
         'Add all the ingredients except thyme to a cocktail glass or shaker filled with ice.',
@@ -1368,12 +1368,12 @@ const MOCKTAILS=const [
       title:'Ocean Blue Goblet' ,
       affordability: Affordability.Pricey,
       complexity: Complexity.Simple,
-      imgUrl:'https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/tc-mocktail-ocean-blue-goblet-1533675217.jpg?crop=0.946xw:0.951xh;0.00170xw,0&resize=980:*',
+      imgUrl:'assets/images/moc46.jpg',
       duration: 20,
       ingredients: [
         '3 oz Torani Blue Raspberry Syrup',
-		'9.5 oz sour mix',
-		'9.5 oz lemon-lime soda'
+        '9.5 oz sour mix',
+        '9.5 oz lemon-lime soda'
       ],
       steps: [
         'Combine ingredients in goblet (or glass). Garnish with two blue gummy/marshmallow sharks inside glass/goblet and one on top.'
@@ -1392,24 +1392,24 @@ const MOCKTAILS=const [
       title:'Blood Orange Soda' ,
       affordability: Affordability.Luxurious,
       complexity: Complexity.Hard,
-      imgUrl:'https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/tc-mocktail-blood-orange-1533675217.jpg?crop=0.9959839357429718xw:1xh;center,top&resize=980:*',
+      imgUrl:'assets/images/moc47.jpg',
       duration: 20,
       ingredients: [
         'For the Mint Syrup',
-		'4 table spoom OF SUGAR CANE or HONEY',
-		'1/2 cup Water',
-		'1/2 cup torn fresh mint leaves',
-		'For the Cocktail',
-		'1/2 oz mint simple syrup',
-		'1 oz freshly squeezed blood orange juice',
-		'Blood orange slices (for garnish)',
-		'2-3 oz of sparkling water OR DIET 7UP ( prefer the 7UP version)',
-		'Fresh mint leaves (for garnish)'
+        '4 table spoom OF SUGAR CANE or HONEY',
+        '1/2 cup Water',
+        '1/2 cup torn fresh mint leaves',
+        'For the Cocktail',
+        '1/2 oz mint simple syrup',
+        '1 oz freshly squeezed blood orange juice',
+        'Blood orange slices (for garnish)',
+        '2-3 oz of sparkling water OR DIET 7UP ( prefer the 7UP version)',
+        'Fresh mint leaves (for garnish)'
       ],
       steps: [
         'Make the mint syrup. In a small pan, combine melted sugar cane and water. Stir until the honey has dissolved and torn in some mint leaves. Let sit for 2 minutes or less, then strain the mint leaves from the syrup. Transfer to a small jar and refrigerate to cool.',
         'Make the cocktail. In a flute glass, add a slice of blood orange on the bottom or along the sides of the glass. '
-		'Add in cooled honey syrup, sparkling water or diet 7up, and blood orange juice, and stir to combine. Fill the glass to the top and add some fresh mint leaves. ENJOY!'
+            'Add in cooled honey syrup, sparkling water or diet 7up, and blood orange juice, and stir to combine. Fill the glass to the top and add some fresh mint leaves. ENJOY!'
       ] ,
       expensive: true,
       halloween: true,
@@ -1425,12 +1425,12 @@ const MOCKTAILS=const [
       title:'Creepy Shirley Temples' ,
       affordability: Affordability.Pricey,
       complexity: Complexity.Challenging,
-      imgUrl:'https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/creepy-shirley-temples-boulderlocavore-com-2140-1565373308.jpg?crop=0.9988888888888889xw:1xh;center,top&resize=980:*',
+      imgUrl:'assets/images/moc48.jpg',
       duration: 15,
       ingredients: [
         'Ginger ale',
-		'a splash grenadine syrup (that makes the red color)',
-		'maraschino cherries.'
+        'a splash grenadine syrup (that makes the red color)',
+        'maraschino cherries.'
       ],
       steps: [
         'Fill a glass (or beaker; see the supply buying guide below) with ginger ale with a few maraschino cherries.',
@@ -1452,16 +1452,16 @@ const MOCKTAILS=const [
       title:'Passionfruit Potion Tea' ,
       affordability: Affordability.Pricey,
       complexity: Complexity.Hard,
-      imgUrl:'https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/passionfruit-potion-tea-3-1565379559.jpg?crop=0.447xw:1.00xh;0.459xw,0&resize=980:*',
+      imgUrl:'assets/images/moc49.jpg',
       duration: 20,
       ingredients: [
         '2 tsp Tea leaves (I used Taj Mahal brand)',
-		'4 cups Water',
-		'½ cup Sugar',
-		'4 - 5 Passion fruit',
-		'2 tsp Lemon juice',
-		'4 - 5 Mint leaves',
-		'Ice cube'
+        '4 cups Water',
+        '½ cup Sugar',
+        '4 - 5 Passion fruit',
+        '2 tsp Lemon juice',
+        '4 - 5 Mint leaves',
+        'Ice cube'
       ],
       steps: [
         'Bring water to a boil.When it comes to a boil, add the tea leaves.Switch off the heat and let the tea steep for 2-3 minutes.',
@@ -1483,16 +1483,16 @@ const MOCKTAILS=const [
       title:'Cider Sangria' ,
       affordability: Affordability.Luxurious,
       complexity: Complexity.Challenging,
-      imgUrl:'https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/tc-mocktail-oysterbah-cidersangria-1533675220.jpg?crop=0.447xw:1.00xh;0.357xw,0&resize=980:*',
+      imgUrl:'assets/images/moc50.jpg',
       duration: 15,
       ingredients: [
         '1/2 cup apple wine (or white wine)',
-		'1/4 cup apple cider',	
-		'2 tablespoons maple liqueur',
-		'dash of cinnamon',
-		'1/2 cup chopped apple',
-		'1/4 cup sparkling water',
-		'1-2 cinnamon sticks'
+        '1/4 cup apple cider',
+        '2 tablespoons maple liqueur',
+        'dash of cinnamon',
+        '1/2 cup chopped apple',
+        '1/4 cup sparkling water',
+        '1-2 cinnamon sticks'
       ],
       steps: [
         'In a glass, mix together wine, cider, maple liqueur, and dash of cinnamon until well mixed. Stir in apple. Refrigerate about 2-3 hours.',
@@ -1512,13 +1512,13 @@ const MOCKTAILS=const [
       title:'Chinise Firebolt' ,
       affordability: Affordability.Pricey,
       complexity: Complexity.Simple,
-      imgUrl:'https://cocktails365.files.wordpress.com/2010/07/img_0182.jpg',
+      imgUrl:'assets/images/moc51.jpg',
       duration: 10,
       ingredients: [
         '1 tablespoon cherry grenadine syrup',
-		'1 tablespoon lime juice',
-		'(12 fluid ounce) can or bottle cola soft drink (such as Coke®)',
-		'1 strip of lemon zest, for garnish'
+        '1 tablespoon lime juice',
+        '(12 fluid ounce) can or bottle cola soft drink (such as Coke®)',
+        '1 strip of lemon zest, for garnish'
       ],
       steps: [
         'Pour the grenadine and lime juice into a tall glass. Pour in the cola to mix. Float a strip of lemon zest on top to garnish.'
@@ -1537,19 +1537,19 @@ const MOCKTAILS=const [
       title:'Mai Tai' ,
       affordability: Affordability.Luxurious,
       complexity: Complexity.Hard,
-      imgUrl:'https://i.pinimg.com/originals/95/81/37/95813789165cc2b7dc61b3c9cb4425eb.jpg',
+      imgUrl:'assets/images/moc52.jpg',
       duration: 20,
       ingredients: [
         '1 cup ice',
-		'1 fluid ounce light rum',
-		'1 fluid ounce gold rum',
-		'½ fluid ounce orange Curacao liqueur',
-		'½ fluid ounce orgeat syrup',
-		'½ fluid ounce lime juice',
-		'1 cup ice',
-		'1 fluid ounce dark rum',
-		'1 wedge fresh pineapple',
-		'1 maraschino cherry'
+        '1 fluid ounce light rum',
+        '1 fluid ounce gold rum',
+        '½ fluid ounce orange Curacao liqueur',
+        '½ fluid ounce orgeat syrup',
+        '½ fluid ounce lime juice',
+        '1 cup ice',
+        '1 fluid ounce dark rum',
+        '1 wedge fresh pineapple',
+        '1 maraschino cherry'
       ],
       steps: [
         'Fill an old-fashioned glass with 1 cup crushed ice. Set aside in the freezer.',
@@ -1572,21 +1572,21 @@ const MOCKTAILS=const [
       title:'Hurricane' ,
       affordability: Affordability.Pricey,
       complexity: Complexity.Hard,
-      imgUrl:'https://i.pinimg.com/originals/81/34/90/813490f7d3717c38d94d11deba45dc94.jpg',
+      imgUrl:'assets/images/moc53.jpg',
       duration: 20,
       ingredients: [
         'Passionfruit Juice',
-		'Clear Soda (7up or Sprite) – 16 ounces (two single serve bottles)',
-		'3 limes',
-		'2 Quart pitcher'
+        'Clear Soda (7up or Sprite) – 16 ounces (two single serve bottles)',
+        '3 limes',
+        '2 Quart pitcher'
       ],
       steps: [
         'Pour both bottles of soda in your pitcher.',
         'Fill the rest of the pitcher with fruit juice.',
         'Squeeze the juice from one whole lime into the drink mixture.',
         'Add another whole lime, sliced, to the pitcher, stir to combine the ingreients.',
-		'Allow to sit for about 15 minutes before serving.',
-		'Serve in glasses garnished with a 1/2 of a slice of lime.'
+        'Allow to sit for about 15 minutes before serving.',
+        'Serve in glasses garnished with a 1/2 of a slice of lime.'
       ] ,
       expensive: true,
       halloween: false,
@@ -1602,21 +1602,21 @@ const MOCKTAILS=const [
       title:'Shanghai Rose' ,
       affordability: Affordability.Luxurious,
       complexity: Complexity.Hard,
-      imgUrl:'https://assets.epicurious.com/photos/54b42689d5e8c3e1070b2ebc/master/pass/363829_shanghai-rose_1x1.jpg',
+      imgUrl:'assets/images/moc53a.jpg',
       duration: 20,
       ingredients: [
         'For the rosemary crystals - 1/2 cup dried rosemary',
-		'1/2 cup superfine sugar',
+        '1/2 cup superfine sugar',
         'For the rose elixir - 8 ounces rose syrup',
-		'8 ounces distilled or tap water',
+        '8 ounces distilled or tap water',
         'For the Shanghai Rose - Juice of 1 lime',
-		'1/4 cup rosemary crystals',
-		'2 ounces rose elixir',
-		'2 ounces bottled yuzu juice**',
-		'2 ounces simple syrup'
-		'Ice',
-		'18 ounces soda water',
-		'2 sprigs fresh rosemary for garnish'
+        '1/4 cup rosemary crystals',
+        '2 ounces rose elixir',
+        '2 ounces bottled yuzu juice**',
+        '2 ounces simple syrup'
+            'Ice',
+        '18 ounces soda water',
+        '2 sprigs fresh rosemary for garnish'
       ],
       steps: [
         'Make the rosemary crystals - In a food processor, process the rosemary and sugar until fully combined, about 1 minute—there will be visible pieces of rosemary. DO AHEAD: Rosemary crystals can be prepared in advance and stored, in an airtight container at room temperature, up to 2 weeks.',
@@ -1639,14 +1639,14 @@ const MOCKTAILS=const [
       title:'Bay Breeze' ,
       affordability: Affordability.Pricey,
       complexity: Complexity.Simple,
-      imgUrl:'https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcR7SiIbdgMKvCX3vKKgx0b0PaPyigEpJtv1nQ&usqp=CAU',
+      imgUrl:'assets/images/moc54.jfif',
       duration: 10,
       ingredients: [
         '1 cup ice',
-		'2 fluid ounces cranberry juice',
-		'2 fluid ounces pineapple juice',
-		'1 ½ fluid ounces vodka',
-		'1 lime wedge for garnish'
+        '2 fluid ounces cranberry juice',
+        '2 fluid ounces pineapple juice',
+        '1 ½ fluid ounces vodka',
+        '1 lime wedge for garnish'
       ],
       steps: [
         'Combine ice, cranberry juice, pineapple juice, and vodka in a highball glass. Garnish with a lime wedge.'
@@ -1666,7 +1666,7 @@ const MOCKTAILS=const [
       title:'Vish\'s Twang' ,
       affordability: Affordability.Pricey,
       complexity: Complexity.Simple,
-      imgUrl:'https://cdn.vox-cdn.com/thumbor/3JdTPaElYQAPiCtQQSzI-5BU-04=/0x0:930x640/1120x0/filters:focal(0x0:930x640):format(webp):no_upscale()/cdn.vox-cdn.com/uploads/chorus_asset/file/3627586/unnamed-3.0.jpg',
+      imgUrl:'assets/images/moc55.jpg',
       duration: 10,
       ingredients: [
         'espelette-spiced palm syrup',
@@ -1689,7 +1689,7 @@ const MOCKTAILS=const [
       title:'Kamehameha' ,
       affordability: Affordability.Pricey,
       complexity: Complexity.Simple,
-      imgUrl:'https://cdn.vox-cdn.com/thumbor/tCgH1JZ4FE32hGz4vY0dY7DadI4=/0x0:891x668/1120x0/filters:focal(0x0:891x668):format(webp):no_upscale()/cdn.vox-cdn.com/uploads/chorus_asset/file/3648158/unnamed-1.0.jpg',
+      imgUrl:'assets/images/moc56.jpg',
       duration: 10,
       ingredients: [
         ' a tongue burning combination of house Thai chili-infused vodka',
@@ -1713,7 +1713,7 @@ const MOCKTAILS=const [
       title:'Burmese Garden',
       affordability: Affordability.Affordable,
       complexity: Complexity.Challenging,
-      imgUrl:'https://cdn.vox-cdn.com/thumbor/5R_zhh3P6sNUAvlXOpNxbk3Mq_o=/0x0:817x613/1120x0/filters:focal(0x0:817x613):format(webp):no_upscale()/cdn.vox-cdn.com/uploads/chorus_asset/file/3636170/Edmund_s_Oast3.0.jpg',
+      imgUrl:'assets/images/moc57.PNG',
       duration: 15,
       ingredients: [
         'celery-infused Bristow Gin',
@@ -1738,14 +1738,14 @@ const MOCKTAILS=const [
       title:'The Crossfader',
       affordability: Affordability.Luxurious,
       complexity: Complexity.Challenging,
-      imgUrl:'https://cdn.vox-cdn.com/thumbor/HEBIlVWFogYj1auibDyKRWAmNyw=/0x0:771x580/1120x0/filters:focal(0x0:771x580):format(webp):no_upscale()/cdn.vox-cdn.com/uploads/chorus_asset/file/3626128/Screen_Shot_2015-04-20_at_6.13.04_PM.0.png',
+      imgUrl:'assets/images/moc58.PNG',
       duration: 10,
       ingredients: [
         'blanco tequila',
         'Cocchi Americano',
         'fresh lime juice',
-		'pineapple syrup',
-		'house-made citrus-hop bitters'
+        'pineapple syrup',
+        'house-made citrus-hop bitters'
       ],
       steps: [
         'And it\'s those bitters that provide the real Thai influence here. They are made from lemon peel, grapefruit peel and Citra hops, along with lemongrass, long peppercorn, ginger, galangal, cinnamon, cloves and toasted coriander seed. ',
@@ -1767,20 +1767,20 @@ const MOCKTAILS=const [
       title:'Witcher\'s Heart',
       affordability: Affordability.Luxurious,
       complexity: Complexity.Hard,
-      imgUrl:'https://www.theflavorbender.com/wp-content/uploads/2015/10/Witch-Heart-Halloween-Cocktail-The-Flavor-Bender-6-700x1057.jpg',
+      imgUrl:'assets/images/moc59.jpg',
       duration: 20,
       ingredients: [
-	  '1 jigger apple brandy or apple vodka chilled',
-	  '1 tsp grenadine',
-	  '2 jiggers (or to top up) Homemade Blackberry Shimmery Liqueur (see notes) chilled',
-	  'Powdered dry ice optional',
-	  'Martini glass to serve'
+        '1 jigger apple brandy or apple vodka chilled',
+        '1 tsp grenadine',
+        '2 jiggers (or to top up) Homemade Blackberry Shimmery Liqueur (see notes) chilled',
+        'Powdered dry ice optional',
+        'Martini glass to serve'
       ],
       steps: [
-	  'Add about 1/2 - 1 tsp of powdered dry ice to the bottom of the glass (optional). ',
-	  'Place the apple brandy and purple shimmery liqueur in a shaker. Add 1 ice cube and shake for a few seconds to chill the drink. Strain the drink into a martini glass. Top up with more purple shimmery liqueur if necessary. ',
-	  'Pour 1 tsp of grenadine syrup, about an inch from the surface of the drink - the grenadine should sink to the bottom, creating a "bleeding" effect.',
-	  'Add about 1/2 tsp of powdered dry ice on top and serve with a stirrer, so that your guests can stir the "potion" to create that shimmery, smoky effect.'
+        'Add about 1/2 - 1 tsp of powdered dry ice to the bottom of the glass (optional). ',
+        'Place the apple brandy and purple shimmery liqueur in a shaker. Add 1 ice cube and shake for a few seconds to chill the drink. Strain the drink into a martini glass. Top up with more purple shimmery liqueur if necessary. ',
+        'Pour 1 tsp of grenadine syrup, about an inch from the surface of the drink - the grenadine should sink to the bottom, creating a "bleeding" effect.',
+        'Add about 1/2 tsp of powdered dry ice on top and serve with a stirrer, so that your guests can stir the "potion" to create that shimmery, smoky effect.'
       ] ,
       expensive: true,
       halloween: true,
@@ -1796,14 +1796,14 @@ const MOCKTAILS=const [
       title:'Passionate Peruvian',
       affordability: Affordability.Pricey,
       complexity: Complexity.Challenging,
-      imgUrl:'https://cdn.vox-cdn.com/thumbor/qQGLhEUh6JFh10ywUgwVZeoR1ng=/0x0:784x668/1120x0/filters:focal(0x0:784x668):format(webp):no_upscale()/cdn.vox-cdn.com/uploads/chorus_asset/file/3627588/unnamed-4.0.jpg',
+      imgUrl:'assets/images/moc60.PNG',
       duration: 15,
       ingredients: [
         'strawberry',
         'Thai basil',
         'lemon juice',
-		'lime juice',
-		'bitters'
+        'lime juice',
+        'bitters'
       ],
       steps: [
         'The Passionate Peruvian at Gemma gets its name from the Pisco Porton used as its base alcohol.',
@@ -1823,11 +1823,11 @@ const MOCKTAILS=const [
       title:'Kaffir Collins',
       affordability: Affordability.Pricey,
       complexity: Complexity.Simple,
-      imgUrl:'https://cdn.vox-cdn.com/thumbor/7mqm5zN-m_do1mCgrMeEtONUkGE=/0x0:890x668/1120x0/filters:focal(0x0:890x668):format(webp):no_upscale()/cdn.vox-cdn.com/uploads/chorus_asset/file/3645648/unnamed-1.0.jpg',
+      imgUrl:'assets/images/moc61.PNG',
       duration: 10,
       ingredients: [
         '2 oz kaffir lime leaf infused Hayman’s Old Tom gin',
-		'1 oz lime'
+        '1 oz lime'
       ],
       steps: [
         'Shaken and served in a Collins glass filled with ice. Top with club soda.',
@@ -1847,16 +1847,16 @@ const MOCKTAILS=const [
       title:'Death & Co.',
       affordability: Affordability.Luxurious,
       complexity: Complexity.Hard,
-      imgUrl:'https://cdn.vox-cdn.com/thumbor/jrERmKqt-oNzOBPyFKJu96OFwo0=/0x0:890x668/1120x0/filters:focal(0x0:890x668):format(webp):no_upscale()/cdn.vox-cdn.com/uploads/chorus_asset/file/3645626/deathandco.0.jpg',
+      imgUrl:'assets/images/moc62.PNG',
       duration: 20,
       ingredients: [
         '3 blackberries',
-		'2 oz. Flor de Caña extra-dry white rum',
+        '2 oz. Flor de Caña extra-dry white rum',
         '3/4 oz. lemon juice',
-		'1/4 oz. ginger syrup',
-		'1/4 oz. orgeat syrup',
-		'1/4 oz. acacia honey syrup',
-		'Peychaud\'s bitters, to garnish'
+        '1/4 oz. ginger syrup',
+        '1/4 oz. orgeat syrup',
+        '1/4 oz. acacia honey syrup',
+        'Peychaud\'s bitters, to garnish'
       ],
       steps: [
         'In a pilsner glass, gently muddle the blackberries. Fill the glass with crushed ice. ',
@@ -1877,15 +1877,15 @@ const MOCKTAILS=const [
       title:'Virgin Mojito',
       affordability: Affordability.Affordable,
       complexity: Complexity.Simple,
-      imgUrl:'https://i1.wp.com/www.crispyfoodidea.com/wp-content/uploads/2020/05/Virgin-Mojito.jpg?fit=1080%2C1080&ssl=1',
+      imgUrl:'assets/images/moc63.jpg',
       duration: 10,
       ingredients: [
         '30 ml club soda',
-		'30 ml lemon juice',
-		'Ice cubes as required',
-		'8 mint leaves',
-		'20 ml sugar syrup',
-		'2 lemon wedges'
+        '30 ml lemon juice',
+        'Ice cubes as required',
+        '8 mint leaves',
+        '20 ml sugar syrup',
+        '2 lemon wedges'
       ],
       steps: [
         'Shake all the things together.Take a shaker and add mint leaves, lemon wedges, sugar syrup and fresh lemon juice. Use a marble or wooden pestle to crush everything inside the shaker.',
@@ -1907,13 +1907,13 @@ const MOCKTAILS=const [
       title:'Caipirinha',
       affordability: Affordability.Pricey,
       complexity: Complexity.Challenging,
-      imgUrl:'https://www.thespiritsbusiness.com/content/http://www.thespiritsbusiness.com/media/2014/06/Caipirinha2.jpg',
+      imgUrl:'assets/images/moc64.jpg',
       duration: 15,
       ingredients: [
         '1/2 lime',
-		'1 1/2 to 2 1/2 teaspoons superfine sugar (to taste)',
-		'2 ounces​ cachaça',
-		'Garnish: lime wheel'
+        '1 1/2 to 2 1/2 teaspoons superfine sugar (to taste)',
+        '2 ounces​ cachaça',
+        'Garnish: lime wheel'
       ],
       steps: [
         'Gather all ingredients .Cut half of a lime into small wedges.',
@@ -1935,14 +1935,14 @@ const MOCKTAILS=const [
       title:'Batida',
       affordability: Affordability.Pricey,
       complexity: Complexity.Challenging,
-      imgUrl:'https://www.liquor.com/thmb/CJL_JmddztEMSN1t4MsTf2gZaq4=/720x540/smart/filters:no_upscale()/__opt__aboutcom__coeus__resources__content_migration__liquor__2017__12__01105742__novo-fogo-batida-720x720-recipe-eb07756d14744b7d9928c45cafe4d5bc.jpg',
+      imgUrl:'assets/images/moc65.jpg',
       duration: 15,
       ingredients: [
         '1/2 cup ice',
-		'2 ounces cachaça (Novo Fogo Silver or Chameleon)',
-		'1/2 ounce coconut milk',
-		'1/2 ounce lime juice',
-		'1 ounce passionfruit syrup (B.G. Reynolds)'
+        '2 ounces cachaça (Novo Fogo Silver or Chameleon)',
+        '1/2 ounce coconut milk',
+        '1/2 ounce lime juice',
+        '1 ounce passionfruit syrup (B.G. Reynolds)'
       ],
       steps: [
         'Gather the ingredients.In a blender, add the ice, cachaça, coconut milk, lime juice, and passion fruit syrup.',
@@ -1962,23 +1962,23 @@ const MOCKTAILS=const [
       title:'Brazillian Mojito',
       affordability: Affordability.Pricey,
       complexity: Complexity.Hard,
-      imgUrl:'https://iflookscouldkale.files.wordpress.com/2013/06/brazilian-caipirinha-1.jpg?w=652',
+      imgUrl:'assets/images/moc66.jpg',
       duration: 20,
       ingredients: [
         '1 oz. Cachaça (substitute rum if you can\'t find it)',
-		'1 oz. Triple Sec',
-		'10 fresh mint leaves',
-		'1 Tbsp. sugar (brown sugar works nicely, too)',
-		'1/2 lime, cut into 6 wedges',
-		'Ice',
-		'Water (I used still, but sparkling would be lovely, too)'
+        '1 oz. Triple Sec',
+        '10 fresh mint leaves',
+        '1 Tbsp. sugar (brown sugar works nicely, too)',
+        '1/2 lime, cut into 6 wedges',
+        'Ice',
+        'Water (I used still, but sparkling would be lovely, too)'
       ],
       steps: [
         'Using a muddler (or the back of a wooden spoon), work the mint leaves and sugar together in the bottom of a rocks glass. When you think you\'re done, muddle it for another 30 seconds. You want it really, really, muddly.',
         'Throw in the lime wedges and muddle for another 60 seconds. Muddle, muddle, muddle.',
         'Fill the glass with ice, and pour the Cachaça and triple sec in over the top. Top it off with water and give it a few swirls with a stir stick. ',
         'Alternatively, you can make this in a cocktail shaker and pour the whole thing over ice, but I just didn\'t see the sense in dirtying another dish.',
-		'Garnish with an extra lime wedge, and drink up!'
+        'Garnish with an extra lime wedge, and drink up!'
       ] ,
       expensive: true,
       halloween: false,
@@ -1994,14 +1994,14 @@ const MOCKTAILS=const [
       title:'Frozen Mojito',
       affordability: Affordability.Affordable,
       complexity: Complexity.Challenging,
-      imgUrl:'https://www.panningtheglobe.com/wp-content/uploads/2013/04/froz-mojito-two.jpg',
+      imgUrl:'assets/images/moc67.jpg',
       duration: 15,
       ingredients: [
         '¼ cup simple syrup',
-		'4 tbsp fresh squeezed lime juice (1 large lime)',
-		'1½ cups ice',
-		'6-8 fresh mint leaves',
-		'1 shot rum (optional) omit the rum for a mocktail.'
+        '4 tbsp fresh squeezed lime juice (1 large lime)',
+        '1½ cups ice',
+        '6-8 fresh mint leaves',
+        '1 shot rum (optional) omit the rum for a mocktail.'
       ],
       steps: [
         'Put all of the ingredients in a blender that is powerful enough to crush ice. Blend until the ice is finely crushed and the mint leaves are no longer visible.',
@@ -2021,14 +2021,14 @@ const MOCKTAILS=const [
       title:'Orange Mojito',
       affordability: Affordability.Affordable,
       complexity: Complexity.Simple,
-      imgUrl:'https://food.fnr.sndimg.com/content/dam/images/food/fullset/2011/4/25/0/CCWM_Fresh-Orange-Mojito-2_s4x3.jpg.rend.hgtvcom.826.620.suffix/1384263320877.jpeg',
+      imgUrl:'assets/images/moc68.jpeg',
       duration: 15,
       ingredients: [
         '2²⁄³ oz (75 ml) white rum',
-		'2 teaspoons sugar',
-		'half of orange,cut into 3 wedges',
-		'half of lime,cut into 3 wedges',
-		'2 sprigs of fresh mint'
+        '2 teaspoons sugar',
+        'half of orange,cut into 3 wedges',
+        'half of lime,cut into 3 wedges',
+        '2 sprigs of fresh mint'
       ],
       steps: [
         'In a mixing bowl,muddle orange,lime,sugar and mint sprigs. Transfer to a cocktail glass filled with crushed ice.',
@@ -2049,14 +2049,14 @@ const MOCKTAILS=const [
       title:'Apple Mojito',
       affordability: Affordability.Pricey,
       complexity: Complexity.Challenging,
-      imgUrl:'https://food.fnr.sndimg.com/content/dam/images/food/fullset/2007/3/13/0/gi0206_mojito.jpg.rend.hgtvcom.826.620.suffix/1371585551748.jpeg',
+      imgUrl:'assets/images/moc69.jpeg',
       duration: 15,
       ingredients: [
         '2 oz Bacardi® Big Apple rum',
-		'6 oz club soda',
-		'3 lime wedges',
-		'2 tsp sugar',
-		'3 fresh mint sprigs'
+        '6 oz club soda',
+        '3 lime wedges',
+        '2 tsp sugar',
+        '3 fresh mint sprigs'
       ],
       steps: [
         'Add the lime, sugar and mint sprigs to a highball glass and muddle with a muddler.',
@@ -2077,21 +2077,21 @@ const MOCKTAILS=const [
       ],
       title:'Kiwi Lime Mojito',
       affordability: Affordability.Luxurious,
-      complexity: Complexity.Hard,
-      imgUrl:'https://tipsybartender.com/wp-content/uploads/2018/01/Kiwi-Lime-Mojito.jpg',
+      complexity: Complexity.Challenging,
+      imgUrl:'assets/images/moc70.jpg',
       duration: 20,
       ingredients: [
         'For the Mint Simple Syrup - 1 cup water',
-		'1 cup sugar',
-		'2 sprigs mint',
+        '1 cup sugar',
+        '2 sprigs mint',
         'For the Cocktail - 11 mint leaves plus more for garnish',
-		'3 lime wedges',
-		'1 1/2 ounces 3 tablespoons Mint Simple Syrup',
-		'1 1/2 ounces 3 tablespoons pureed kiwi',
-		'2 ounces 4 tablespoons rum',
-		'ice cubes',
-		'club soda',
-		'kiwi slices for garnish'
+        '3 lime wedges',
+        '1 1/2 ounces 3 tablespoons Mint Simple Syrup',
+        '1 1/2 ounces 3 tablespoons pureed kiwi',
+        '2 ounces 4 tablespoons rum',
+        'ice cubes',
+        'club soda',
+        'kiwi slices for garnish'
       ],
       steps: [
         'To make the Mint Simple Syrup: Combine water and sugar in a small sauce pan. Bring to a boil, stirring the sugar to dissolve. ',
@@ -2114,16 +2114,16 @@ const MOCKTAILS=const [
       title:'Watermelon Mojito',
       affordability: Affordability.Pricey,
       complexity: Complexity.Challenging,
-      imgUrl:'https://d14iv1hjmfkv57.cloudfront.net/assets/recipes/watermelon-mojito/_600x600_crop_center-center_61_line/Page-27-web-horizon.jpg?mtime=20160727150728&focal=none&tmtime=20200930094621',
+      imgUrl:'assets/images/moc71.jpg',
       duration: 15,
       ingredients: [
         '6 cups cubed seedless watermelon',
-		'50 leaf (blank)s fresh mint leaves',
-		'5 eaches limes, juiced',
-		'1 cup white rum',
-		'⅔ cup simple syrup',
-		'2 cups ice cubes, or as needed',
-		'1 cup club soda, or as needed'
+        '50 leaf (blank)s fresh mint leaves',
+        '5 eaches limes, juiced',
+        '1 cup white rum',
+        '⅔ cup simple syrup',
+        '2 cups ice cubes, or as needed',
+        '1 cup club soda, or as needed'
       ],
       steps: [
         'Place cubed watermelon in a blender and blend until smooth. Pour into a bowl through a mesh strainer to remove pulp. Measure out 2 cups of strained watermelon juice and set aside.',
@@ -2145,16 +2145,16 @@ const MOCKTAILS=const [
       title:'Mixed Berry Mojito',
       affordability: Affordability.Luxurious,
       complexity: Complexity.Hard,
-      imgUrl:'https://www.sugarwithspiceblog.com/wp-content/uploads/2020/05/Blog-Face-On-1500x720.jpg',
+      imgUrl:'assets/images/moc72.jpg',
       duration: 20,
       ingredients: [
         '2 handfuls of mixed berries, sliced. (Frozen works well too)',
-		'4 limes, segmented',
-		'2-3 lemons, sliced',
-		'2 handful fresh mint leaves',
-		'Ice',
-		'250ml Barker\'s Squeezed Lemons with Lime, Cucumber & Mint, chilled',
-		'2 L soda water, well chilled',
+        '4 limes, segmented',
+        '2-3 lemons, sliced',
+        '2 handful fresh mint leaves',
+        'Ice',
+        '250ml Barker\'s Squeezed Lemons with Lime, Cucumber & Mint, chilled',
+        '2 L soda water, well chilled',
         '1.5L lemonade, well chilled'
       ],
       steps: [
@@ -2177,15 +2177,15 @@ const MOCKTAILS=const [
       title:'Mango Mojito',
       affordability: Affordability.Pricey,
       complexity: Complexity.Challenging,
-      imgUrl:'https://food-fanatic-res.cloudinary.com/iu/s--lzXUZZa8--/c_thumb,f_auto,g_auto,h_1200,q_auto,w_1200/v1433868800/mango-mojito-photo',
+      imgUrl:'assets/images/moc73.jfif',
       duration: 15,
       ingredients: [
         'Mango - fresh is best but frozen works.',
-		'Mint - can\'t have a mojito without mint.',
-		'Lime - needed acid.',
-		'Honey - where the sweetness comes from. Sugar works too.',
-		'Light rum - complements the mango.',
-		'Club soda - adds some carbonation.'
+        'Mint - can\'t have a mojito without mint.',
+        'Lime - needed acid.',
+        'Honey - where the sweetness comes from. Sugar works too.',
+        'Light rum - complements the mango.',
+        'Club soda - adds some carbonation.'
       ],
       steps: [
         'In a blender or food processor, add the mango and puree until smooth.',
@@ -2209,13 +2209,13 @@ const MOCKTAILS=const [
       title:'Belgian Orange Blossom',
       affordability: Affordability.Pricey,
       complexity: Complexity.Simple,
-      imgUrl:'https://www.thespruceeats.com/thmb/t_ActU0APnUKxPISWQfkUdkkKsk=/960x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/GettyImages-612034832-583470873df78c6f6a0f1a3d.jpg',
+      imgUrl:'assets/images/moc74.jpg',
       duration: 10,
       ingredients: [
         '1/2 cup orange tangerine juice',
-		'1/2 cup sparkling apple juice',
-		'1/2 cup natural ginger ale',
-		'10 drops Angostura Bitters'
+        '1/2 cup sparkling apple juice',
+        '1/2 cup natural ginger ale',
+        '10 drops Angostura Bitters'
       ],
       steps: [
         'Combine ingredients in a small pitcher and stir.Serve over ice or straight up.'
@@ -2237,14 +2237,14 @@ const MOCKTAILS=const [
       title:'Chocolate Martini',
       affordability: Affordability.Pricey,
       complexity: Complexity.Challenging,
-      imgUrl:'https://thedinnerplan.com/wp-content/uploads/2017/07/Chocolate-Martini-3-683x1024-e1502701331543.jpg',
+      imgUrl:'assets/images/moc75.jpg',
       duration: 20,
       ingredients: [
         '2 cups cold milk',
-		'1/2 cup chocolate syrup',
-		'2 tbsp corn syrup (optional)',
-		'Crushed ice, as needed',
-		'Grated Chocolate / drinking chocolate powder – for decoration'
+        '1/2 cup chocolate syrup',
+        '2 tbsp corn syrup (optional)',
+        'Crushed ice, as needed',
+        'Grated Chocolate / drinking chocolate powder – for decoration'
       ],
       steps: [
         'In a blender, combine milk, chocolate syrup, corn syrup and crushed ice. Pulse until the mixture becomes smooth.',
@@ -2268,18 +2268,18 @@ const MOCKTAILS=const [
       title:'Blue Shoe',
       affordability: Affordability.Affordable,
       complexity: Complexity.Simple,
-      imgUrl:'https://mealplannerpro.com/images/recipes/recipes/0/387/387836/871987.jpg',
+      imgUrl:'assets/images/moc76.jpg',
       duration: 10,
       ingredients: [
         'Blue Punch',
         'White Cranberry Juice',
-		'Sprite'
+        'Sprite'
       ],
       steps: [
         'Chill ingredients',
         'Pour 3oz of punch in a 10oz martini or cosmo glass',
-		'Pour 3oz of juice',
-		'Top with Sprite'
+        'Pour 3oz of juice',
+        'Top with Sprite'
       ] ,
       expensive: false,
       halloween: false,
@@ -2296,25 +2296,25 @@ const MOCKTAILS=const [
       title:'Electric Blue',
       affordability: Affordability.Affordable,
       complexity: Complexity.Simple,
-      imgUrl:'https://i.pinimg.com/736x/cc/5b/9f/cc5b9f41e011f3e8d3d826bcc89ad132.jpg',
+      imgUrl:'assets/images/moc77.jpg',
       duration: 10,
       ingredients: [
         '1 cup water',
         'pinch of salt',
         'Blue food colouring',
-		'Mint leaves',
-		'1/2 cup sugar',
-		'1/4 cup freshl lemon juice',
-		'sprite, lemonade',
-		'Lemon slices'
+        'Mint leaves',
+        '1/2 cup sugar',
+        '1/4 cup freshl lemon juice',
+        'sprite, lemonade',
+        'Lemon slices'
       ],
       steps: [
         'Make a syrup adding water, sugar and salt',
         'Boli until it simmers and sugar is dissolved',
         'Set aside and leave to cool.',
         'Add lemon juice and Blue food colouring',
-		'In a glass add lemon slices, icve cubes, mint leaves',
-		'Mix equal blue misture and sprite'
+        'In a glass add lemon slices, icve cubes, mint leaves',
+        'Mix equal blue misture and sprite'
       ] ,
       expensive: false,
       halloween: false,
@@ -2331,19 +2331,19 @@ const MOCKTAILS=const [
       title:'Mint Ginger',
       affordability: Affordability.Affordable,
       complexity: Complexity.Simple,
-      imgUrl:'https://i2.wp.com/www.unicornsinthekitchen.com/wp-content/uploads/2017/06/Mint-Ginger-Mocktail-1-600px.jpg?resize=600%2C900&ssl=1',
+      imgUrl:'assets/images/moc78.jpg',
       duration: 10,
       ingredients: [
         '1/2 cup mint leaves',
-		'2 cubes of Dorot Ginger',
-		'1 tbsp granulated sugar',
-		'Ice',
-		'Sparkling water I used lemon Lime'
+        '2 cubes of Dorot Ginger',
+        '1 tbsp granulated sugar',
+        'Ice',
+        'Sparkling water I used lemon Lime'
       ],
       steps: [
         'Place mint leaves, Dorot Ginger cubes and sugar in a blender.Blend until fully combined.',
-		'Divide the mixture between two glasses.',
-		'Add ice.Fill the glasses with sparkling water.'
+        'Divide the mixture between two glasses.',
+        'Add ice.Fill the glasses with sparkling water.'
       ] ,
       expensive: false,
       halloween: false,
@@ -2359,15 +2359,15 @@ const MOCKTAILS=const [
       title:'Kinderpunsch Rezept',
       affordability: Affordability.Pricey,
       complexity: Complexity.Simple,
-      imgUrl:'https://www.daringgourmet.com/wp-content/uploads/2016/12/Kinderpunsch-4.jpg',
+      imgUrl:'assets/images/moc79.jpg',
       duration: 15,
       ingredients: [
         '1 cup water',
-		'⅔ cup white sugar',
-		'2 pinches ground cloves',
-		'1 cinnamon stick',
-		'3 cups apple juice',
-		'1 lemon, sliced'
+        '⅔ cup white sugar',
+        '2 pinches ground cloves',
+        '1 cinnamon stick',
+        '3 cups apple juice',
+        '1 lemon, sliced'
       ],
       steps: [
         'In a 3 quart saucepan, bring water, sugar, cloves and cinnamon to boil.',
@@ -2387,12 +2387,12 @@ const MOCKTAILS=const [
       title:'Radler',
       affordability: Affordability.Pricey,
       complexity: Complexity.Simple,
-      imgUrl:'https://germanfoods.org/wp-content/uploads/radler.jpg',
+      imgUrl:'assets/images/moc80.jpg',
       duration: 10,
       ingredients: [
         '6 oz Beer',
-		'1 oz Limoncello',
-		'2 oz Sparkling Water'
+        '1 oz Limoncello',
+        '2 oz Sparkling Water'
       ],
       steps: [
         'Combine the beer – preferably a citrusy German Hefeweizen or Belgian Witbier – with the Limoncello, and sparkling water in a flute or highball and give it a stir. Garnish with a lemon round and enjoy!'
@@ -2411,21 +2411,21 @@ const MOCKTAILS=const [
       title:'Cold Duck Bowl',
       affordability: Affordability.Luxurious,
       complexity: Complexity.Hard,
-      imgUrl:'https://germanfoods.org/wp-content/uploads/scottish-lemonade.jpg',
+      imgUrl:'assets/images/moc81.jpg',
       duration: 15,
       ingredients: [
         '2 parts dry white wine Riesling',
-		'2 parts semi-dry Mosel white wine',
-		'2 parts German Sekt sparkling wine',
-		'3 leaves lemon balm, cilantro or lemongrass or lemon wedges',
-		'2 tsp lemon juice',
-		'2 tsp sugar',
-		'2 parts carbonated mineral water',
-		'crushed ice'
+        '2 parts semi-dry Mosel white wine',
+        '2 parts German Sekt sparkling wine',
+        '3 leaves lemon balm, cilantro or lemongrass or lemon wedges',
+        '2 tsp lemon juice',
+        '2 tsp sugar',
+        '2 parts carbonated mineral water',
+        'crushed ice'
       ],
       steps: [
         'Add all the ingredients and mix together.',
-		'For a bowle to share, you can use two bottles instead of two parts, a whole bunch of lemon balm and 30g (2 tbsp.) sugar.'
+        'For a bowle to share, you can use two bottles instead of two parts, a whole bunch of lemon balm and 30g (2 tbsp.) sugar.'
       ] ,
       expensive: true,
       halloween: false,
@@ -2441,7 +2441,7 @@ const MOCKTAILS=const [
       title:'The Tyrolian',
       affordability: Affordability.Luxurious,
       complexity: Complexity.Hard,
-      imgUrl:'https://germanfoods.org/wp-content/uploads/The-Tyrolian-Almdudler.jpg',
+      imgUrl:'assets/images/moc82.PNG',
       duration: 20,
       ingredients: [
         '5 ounces sparkling wine',
@@ -2472,7 +2472,7 @@ const MOCKTAILS=const [
       title:'Damascus',
       affordability: Affordability.Luxurious,
       complexity: Complexity.Hard,
-      imgUrl:'https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/spice-damascus-1576525924.jpg?crop=0.999875015623047xw:1xh;center,top&resize=980:*',
+      imgUrl:'assets/images/moc83.jpg',
       duration: 20,
       ingredients: [
         '5 ounces sparkling wine',
