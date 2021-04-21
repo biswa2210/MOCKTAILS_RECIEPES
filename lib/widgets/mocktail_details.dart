@@ -65,7 +65,7 @@ Navigator.of(context).pushNamed(MtRecipeDetail.routeName,arguments: id);
             topLeft: Radius.circular(15),
             topRight: Radius.circular(15),
           ),
-            child: Image.network(imgageUrl,height: 280,width: double.infinity,fit:BoxFit.cover),
+            child: Image.asset(imgageUrl,height: 280,width: double.infinity,fit:BoxFit.cover),
           ),
           Positioned(
             bottom: 50,
