@@ -62,19 +62,19 @@ mocktail-recipe-finder
 This flutter application is totally responsive. When we change the orientation the app fits in that. I have used [FLUTTER](https://flutter.dev/?gclid=Cj0KCQjw38-DBhDpARIsADJ3kjliHdMH2hA97bBGqJtW5ORUUksCxpZ8cnrSWaH__HevGftAmP8AmvIaAhNlEALw_wcB&gclsrc=aw.ds) and [Dart](https://dart.dev/) in front end and backend. I have used total six screens. Mocktail catagories screen, favourites screen, filter screen, Mocktail recipe description screen, tap screen, catagories screen. I have designed this using [Materials ui](https://material-ui.com/). I have loaded the entire app in main.dart.
 ## Screenshots :point_down: 
 <div align="center">
-<a href="m17.jpeg"><img src="m17.jpeg" width="250" height= "450"></a><br>
+<a href="m17.jpeg"><img src="m17.jpeg" width="800" height= "850"></a><br>
        
 <a href="m18.jpeg"><img src="m18.jpeg" width="500" height= "250"></a>
 
-<a href="m1.jpeg"><img src="m1.jpeg" width="250" height= "450"></a> <a href="m2.jpeg"><img src="m2.jpeg" width="250" height= "450"></a>
+<a href="m1.jpeg"><img src="m1.jpeg" width="400" height= "450"></a> <a href="m2.jpeg"><img src="m2.jpeg" width="400" height= "450"></a>
        
-<a href="m3.jpeg"><img src="m3.jpeg" width="250" height= "450"></a> <a href="m4.jpeg"><img src="m4.jpeg" width="250" height= "450"></a>
+<a href="m3.jpeg"><img src="m3.jpeg" width="400" height= "450"></a> <a href="m4.jpeg"><img src="m4.jpeg" width="400" height= "450"></a>
 
-<a href="m5.jpeg"><img src="m5.jpeg" width="250" height= "450"></a> <a href="m6.jpeg"><img src="m6.jpeg" width="250" height= "450"></a>
+<a href="m5.jpeg"><img src="m5.jpeg" width="400" height= "450"></a> <a href="m6.jpeg"><img src="m6.jpeg" width="400" height= "450"></a>
      
-<a href="m7.jpeg"><img src="m7.jpeg" width="250" height= "450"></a> <a href="m8.jpeg"><img src="m8.jpeg" width="250" height= "450"></a>
+<a href="m7.jpeg"><img src="m7.jpeg" width="400" height= "450"></a> <a href="m8.jpeg"><img src="m8.jpeg" width="400" height= "450"></a>
 
-<a href="m9.jpeg"><img src="m9.jpeg" width="250" height= "450"></a> <a href="m10.jpeg"><img src="m10.jpeg" width="250" height= "450"></a>
+<a href="m9.jpeg"><img src="m9.jpeg" width="400" height= "450"></a> <a href="m10.jpeg"><img src="m10.jpeg" width="4000" height= "450"></a>
 
 <a href="m11.jpeg"><img src="m11.jpeg" width="400" height= "250"></a> <a href="m12.jpeg"><img src="m12.jpeg" width="400" height= "250"></a>
 
