@@ -62,7 +62,7 @@ mocktail-recipe-finder
 This flutter application is totally responsive. When we change the orientation the app fits in that. I have used [FLUTTER](https://flutter.dev/?gclid=Cj0KCQjw38-DBhDpARIsADJ3kjliHdMH2hA97bBGqJtW5ORUUksCxpZ8cnrSWaH__HevGftAmP8AmvIaAhNlEALw_wcB&gclsrc=aw.ds) and [Dart](https://dart.dev/) in front end and backend. I have used total six screens. Mocktail catagories screen, favourites screen, filter screen, Mocktail recipe description screen, tap screen, catagories screen. I have designed this using [Materials ui](https://material-ui.com/). I have loaded the entire app in main.dart.
 ## Screenshots :point_down: 
 <div align="center">
-<a href="m17.jpeg"><img src="m17.jpeg" width="300" height= "450"></a><a href="m18.jpeg"><img src="m18.jpeg" width="500" height= "450"></a>
+<a href="m17.jpeg"><img src="m17.jpeg" width="300" height= "450"></a> <a href="m18.jpeg"><img src="m18.jpeg" width="500" height= "450"></a>
 
 <a href="m1.jpeg"><img src="m1.jpeg" width="400" height= "450"></a> <a href="m2.jpeg"><img src="m2.jpeg" width="400" height= "450"></a>
        
