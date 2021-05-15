@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:mocktail_reciepe_finder/home.dart';
 import 'package:splashscreen/splashscreen.dart';
-
+/*CREATED BY BISWARUP BHATTACHARJEE
+EMAIL    : bbiswa471@gmail.com
+PHONE NO : 6290272740*/
 void main() {
   runApp(new MaterialApp(
     debugShowCheckedModeBanner: false,
