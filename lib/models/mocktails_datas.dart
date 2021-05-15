@@ -1,6 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:mocktail_reciepe_finder/models/catagories.dart';
 import 'package:mocktail_reciepe_finder/models/mocktails.dart';
+/*CREATED BY BISWARUP BHATTACHARJEE
+EMAIL    : bbiswa471@gmail.com
+PHONE NO : 6290272740*/
 const DUMMY_CATAGORIES=const [
   Catagory(
     id: 'Indian',
