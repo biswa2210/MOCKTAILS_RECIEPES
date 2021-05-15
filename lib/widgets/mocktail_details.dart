@@ -2,6 +2,9 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:mocktail_reciepe_finder/models/mocktails.dart';
 import 'package:mocktail_reciepe_finder/screens/mocktail_reciepe_details.dart';
+/*CREATED BY BISWARUP BHATTACHARJEE
+EMAIL    : bbiswa471@gmail.com
+PHONE NO : 6290272740*/
 class MockTailsDetails extends StatelessWidget {
   final String id;
   final String title;
