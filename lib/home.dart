@@ -6,7 +6,9 @@ import 'file:///E:/PROGRAMMING/AndroidStudioProjects/Flutter/mocktail_reciepe_fi
 import 'file:///E:/PROGRAMMING/AndroidStudioProjects/Flutter/mocktail_reciepe_finder/lib/screens/categories_screens.dart';
 import 'package:mocktail_reciepe_finder/screens/mocktail_reciepe_details.dart';
 import 'package:mocktail_reciepe_finder/screens/tabs_screen.dart';
-
+/*CREATED BY BISWARUP BHATTACHARJEE
+EMAIL    : bbiswa471@gmail.com
+PHONE NO : 6290272740*/
 
 
 class MyMocktailApp extends StatefulWidget {
