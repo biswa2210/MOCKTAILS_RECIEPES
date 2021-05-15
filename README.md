@@ -109,6 +109,12 @@ mocktail-recipe-finder
 </div>
 
 ## Screenshots :point_down: 
+
+$("img").imageShadow({
+    color: '#666',
+    blur: 20
+});
+
 <div align="center">
 <a href="m17.jpeg"><img src="m17.jpeg" width="300" height= "450"></a> 
        
