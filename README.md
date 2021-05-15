@@ -28,9 +28,9 @@ Mocktails are very famous for celebrations, parties, occations and functions all
  
 <details>
        <summary>"Click here to read Country names of famous mocktails"</summary>
- - India<br>
- - London<br>
- - Thailand<br>
+- India<br>
+- London<br>
+- Thailand<br>
  - Brazil<br>
  - Maxico<br>
  - Tokyo<br>
