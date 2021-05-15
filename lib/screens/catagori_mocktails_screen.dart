@@ -4,6 +4,9 @@ import 'package:flutter/material.dart';
 import 'package:mocktail_reciepe_finder/models/mocktails.dart';
 import 'package:mocktail_reciepe_finder/models/mocktails_datas.dart';
 import 'package:mocktail_reciepe_finder/widgets/mocktail_details.dart';
+/*CREATED BY BISWARUP BHATTACHARJEE
+EMAIL    : bbiswa471@gmail.com
+PHONE NO : 6290272740*/
 class CatagriMocktailScreen extends StatefulWidget {
   static const routeName='/catagory-mocktails';
   //final String title;
