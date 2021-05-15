@@ -125,7 +125,7 @@ mocktail-recipe-finder
 
 <a href="pics/m14.jpeg"><img src="pics/m14.jpeg" width="400" height= "250"></a> <a href="pics/m15.jpeg"><img src="pics/m15.jpeg" width="400" height= "250"></a>
      
-<a href="m16.jpeg"><img src="m16.jpeg" width="400" height= "250"></a> <a href="m20.jpeg"><img src="m20.jpeg" width="400" height= "250"></a>
+<a href="pics/m16.jpeg"><img src="pics/m16.jpeg" width="400" height= "250"></a> <a href="pics/m20.jpeg"><img src="pics/m20.jpeg" width="400" height= "250"></a>
 </div>
 
 ## Getting Started :point_down: 
