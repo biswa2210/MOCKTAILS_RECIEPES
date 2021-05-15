@@ -2,6 +2,9 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:mocktail_reciepe_finder/models/mocktails_datas.dart';
 import 'dart:math';
+/*CREATED BY BISWARUP BHATTACHARJEE
+EMAIL    : bbiswa471@gmail.com
+PHONE NO : 6290272740*/
 class MtRecipeDetail extends StatefulWidget {
   static const routeName='/mocktail-detail';
   final Function toggleFavorites;
