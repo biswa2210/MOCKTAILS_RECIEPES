@@ -28,17 +28,17 @@ Mocktails are very famous for celebrations, parties, occations and functions all
  
 <details>
        <summary>"Click here to read Country names of famous mocktails"</summary>
- - India
- - London
- - Thailand
- - Brazil
- - Maxico
- - Tokyo
- - Japan
- - China
- - Belgium
- - France
- - Germany
+ - India<br>
+ - London<br>
+ - Thailand<br>
+ - Brazil<br>
+ - Maxico<br>
+ - Tokyo<br>
+ - Japan<br>
+ - China<br>
+ - Belgium<br>
+ - France<br>
+ - Germany<br>
 </details>
        
 ## APP DOWNLOAD LINK : :point_right: <a href="https://github.com/biswa2210/MOCKTAILS_RECIEPES/raw/master/Famous_Mocktails_base.apk" download>Click here to download</a>
