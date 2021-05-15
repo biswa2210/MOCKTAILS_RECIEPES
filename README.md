@@ -120,9 +120,9 @@ $("img").imageShadow({
        
 <a href="m18.jpeg"><img src="m18.jpeg" width="500" height= "250"></a>
 
-<a href="m1.jpeg"><img src="m1.jpeg" width="250" height= "450"></a> <a href="m2.jpeg"><img src="m2.jpeg" width="250" height= "450"></a>
+<a href="m1.jpeg"><img src="m1.jpeg" width="250" height= "450"></a> <a href="m2.jpeg"><img src="m2.jpeg" width="250" height= "450"></a> <a href="m3.jpeg"><img src="m3.jpeg" width="250" height= "450"></a>
        
-<a href="m3.jpeg"><img src="m3.jpeg" width="250" height= "450"></a> <a href="m4.jpeg"><img src="m4.jpeg" width="250" height= "450"></a>
+ <a href="m4.jpeg"><img src="m4.jpeg" width="250" height= "450"></a>
 
 <a href="m5.jpeg"><img src="m5.jpeg" width="250" height= "450"></a> <a href="m6.jpeg"><img src="m6.jpeg" width="250" height= "450"></a>
      
