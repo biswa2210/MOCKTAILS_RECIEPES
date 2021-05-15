@@ -2,7 +2,9 @@ import 'package:flutter/material.dart';
 import 'file:///E:/PROGRAMMING/AndroidStudioProjects/Flutter/mocktail_reciepe_finder/lib/widgets/catagory_item.dart';
 import 'package:mocktail_reciepe_finder/models/catagories.dart';
 import 'package:mocktail_reciepe_finder/models/mocktails_datas.dart';
-
+/*CREATED BY BISWARUP BHATTACHARJEE
+EMAIL    : bbiswa471@gmail.com
+PHONE NO : 6290272740*/
 class CategoriesScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
