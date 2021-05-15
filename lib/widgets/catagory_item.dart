@@ -2,7 +2,9 @@ import 'dart:async';
 
 import 'package:flutter/material.dart';
 import 'dart:math';
-
+/*CREATED BY BISWARUP BHATTACHARJEE
+EMAIL    : bbiswa471@gmail.com
+PHONE NO : 6290272740*/
 import 'file:///E:/PROGRAMMING/AndroidStudioProjects/Flutter/mocktail_reciepe_finder/lib/screens/catagori_mocktails_screen.dart';
 class CatagoryItem extends StatefulWidget{
   final String id;
