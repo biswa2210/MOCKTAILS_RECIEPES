@@ -3,6 +3,9 @@ import 'package:mocktail_reciepe_finder/models/mocktails.dart';
 import 'package:mocktail_reciepe_finder/screens/categories_screens.dart';
 import 'package:mocktail_reciepe_finder/screens/favorites_screen.dart';
 import 'package:mocktail_reciepe_finder/widgets/main_drawer.dart';
+/*CREATED BY BISWARUP BHATTACHARJEE
+EMAIL    : bbiswa471@gmail.com
+PHONE NO : 6290272740*/
 class TabsScreen extends StatefulWidget {
   final List<MockTail> favoriteMts;
   TabsScreen(this.favoriteMts);
