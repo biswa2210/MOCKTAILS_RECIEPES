@@ -108,6 +108,19 @@ mocktail-recipe-finder
 **This flutter application is totally responsive.** When we change the orientation the app fits in that. I have used [FLUTTER](https://flutter.dev/?gclid=Cj0KCQjw38-DBhDpARIsADJ3kjliHdMH2hA97bBGqJtW5ORUUksCxpZ8cnrSWaH__HevGftAmP8AmvIaAhNlEALw_wcB&gclsrc=aw.ds) and [Dart](https://dart.dev/) in front end and backend. I have used total six screens. Mocktail catagories screen, favourites screen, filter screen, Mocktail recipe description screen, tap screen, catagories screen. I have designed this using [Materials ui](https://material-ui.com/). I have loaded the entire app in main.dart.
 </div>
 
+## Getting Started :point_down: 
+
+This project is a starting point for a Flutter application.
+
+A few resources to get you started if this is your first Flutter project:
+
+- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
+- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+
+For help getting started with Flutter, view our
+[online documentation](https://flutter.dev/docs), which offers tutorials,
+samples, guidance on mobile development, and a full API reference.
+
 ## Screenshots :point_down: 
 
 <div align="center">
@@ -128,15 +141,4 @@ mocktail-recipe-finder
 <a href="pics/m16.jpeg"><img src="pics/m16.jpeg" width="400" height= "250"></a> <a href="pics/m20.jpeg"><img src="pics/m20.jpeg" width="400" height= "250"></a>
 </div>
 
-## Getting Started :point_down: 
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
