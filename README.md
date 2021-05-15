@@ -111,19 +111,19 @@ mocktail-recipe-finder
 ## Screenshots :point_down: 
 
 <div align="center">
-<a href="m17.jpeg"><img src="m17.jpeg" width="250" height= "450"></a> <a href="m1.jpeg"><img src="m1.jpeg" width="250" height= "450"></a> <a href="m2.jpeg"><img src="m2.jpeg" width="250" height= "450"></a>
+<a href="pics/m17.jpeg"><img src="pics/m17.jpeg" width="250" height= "450"></a> <a href="pics/m1.jpeg"><img src="pics/m1.jpeg" width="250" height= "450"></a> <a href="pics/m2.jpeg"><img src="pics/m2.jpeg" width="250" height= "450"></a>
        
-<a href="m3.jpeg"><img src="m3.jpeg" width="250" height= "450"></a> <a href="m4.jpeg"><img src="m4.jpeg" width="250" height= "450"></a> <a href="m5.jpeg"><img src="m5.jpeg" width="250" height= "450"></a>
+<a href="pics/m3.jpeg"><img src="pics/m3.jpeg" width="250" height= "450"></a> <a href="pics/m4.jpeg"><img src="pics/m4.jpeg" width="250" height= "450"></a> <a href="pics/m5.jpeg"><img src="pics/m5.jpeg" width="250" height= "450"></a>
        
-<a href="m6.jpeg"><img src="m6.jpeg" width="250" height= "450"></a> <a href="m7.jpeg"><img src="m7.jpeg" width="250" height= "450"></a> <a href="m8.jpeg"><img src="m8.jpeg" width="250" height= "450"></a>
+<a href="pics/m6.jpeg"><img src="pics/m6.jpeg" width="250" height= "450"></a> <a href="pics/m7.jpeg"><img src="pics/m7.jpeg" width="250" height= "450"></a> <a href="pics/m8.jpeg"><img src="pics/m8.jpeg" width="250" height= "450"></a>
 
-<a href="m9.jpeg"><img src="m9.jpeg" width="250" height= "450"></a> <a href="m10.jpeg"><img src="m10.jpeg" width="250" height= "450"></a> <a href="m19.jpeg"><img src="m19.jpeg" width="250" height= "450"></a>
+<a href="pics/m9.jpeg"><img src="pics/m9.jpeg" width="250" height= "450"></a> <a href="pics/m10.jpeg"><img src="pics/m10.jpeg" width="250" height= "450"></a> <a href="pics/m19.jpeg"><img src="pics/m19.jpeg" width="250" height= "450"></a>
 
-<a href="m18.jpeg"><img src="m18.jpeg" width="400" height= "250"></a> <a href="m11.jpeg"><img src="m11.jpeg" width="400" height= "250"></a> 
+<a href="pics/m18.jpeg"><img src="pics/m18.jpeg" width="400" height= "250"></a> <a href="pics/m11.jpeg"><img src="pics/m11.jpeg" width="400" height= "250"></a> 
 
-<a href="m12.jpeg"><img src="m12.jpeg" width="400" height= "250"></a> <a href="m13.jpeg"><img src="m13.jpeg" width="400" height= "250"></a>
+<a href="pics/m12.jpeg"><img src="pics/m12.jpeg" width="400" height= "250"></a> <a href="pics/m13.jpeg"><img src="pics/m13.jpeg" width="400" height= "250"></a>
 
-<a href="m14.jpeg"><img src="m14.jpeg" width="400" height= "250"></a> <a href="m15.jpeg"><img src="m15.jpeg" width="400" height= "250"></a>
+<a href="pics/m14.jpeg"><img src="pics/m14.jpeg" width="400" height= "250"></a> <a href="pics/m15.jpeg"><img src="pics/m15.jpeg" width="400" height= "250"></a>
      
 <a href="m16.jpeg"><img src="m16.jpeg" width="400" height= "250"></a> <a href="m20.jpeg"><img src="m20.jpeg" width="400" height= "250"></a>
 </div>
