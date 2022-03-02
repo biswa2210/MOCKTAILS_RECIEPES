@@ -46,7 +46,7 @@ Mocktails are very famous for celebrations, parties, occations and functions all
  - Germany<br>
 </details>
        
-## APP DOWNLOAD LINK : :point_right: <a href="https://drive.google.com/file/d/1mnxmoRmp800uXPdfTmarSgwEFFAq7IdS/view" download>Click here to download</a>
+## APP DOWNLOAD LINK : :point_right: <a href="https://drive.google.com/file/d/1hjGLR0BC2drneAbEK6UxegeworH7xjPt/view?usp=sharing" download>Click here to download</a>
 
 ## Purpose :point_down:
 
