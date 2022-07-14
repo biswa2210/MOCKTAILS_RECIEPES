@@ -24,6 +24,10 @@ Made at the restaurant’s bar, modern mocktails tend to have a sense of sophist
 Mocktails are very famous for celebrations, parties, occations and functions all over the world. People also make mocktails in their home. I have made this application for finding mocktail recipes. **Here we can read 83 mocktails's recipes over 12 countries.** By clicking on each country we will see that country's famous and mouthwatering nutritious mocktails. We can read about ingredients, procedure, making time of each mocktalil. We can see the images so that it gives an idea about the look, flavour and taste.  Also we can see is it affordable or if it is pricey. We can add mocktails in favourite list so that in future it will easily be found. In the filters portion we can specify our choices by 6 catagories.* We can easily find expensive, halloween special, affordable, alcoholic or non alcoholic mocktails as per our choice.* We can seperate alcoholic or non-alcoholic drinks which is really useful.<br>
 </div>
 
+## MOCKTAIL RECIPES APP DEMO VIDEO: :point_right: <a href="https://www.youtube.com/watch?v=IduvYZ3c4VU&list=PL0lbDlMJ1h4hiexZec5cbgw8a3F8dE1HH&index=8">Click here to watch</a>
+
+## FLUTTER PLAYLIST: :point_right: <a href="https://www.youtube.com/playlist?list=PL0lbDlMJ1h4hiexZec5cbgw8a3F8dE1HH">Click here to watch</a>
+
 ## Catagories of Mocktails in this app :point_down:
  - [x] 'Non-Alcoholic'
  - [x] 'Alcoholic'
